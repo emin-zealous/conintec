@@ -1,0 +1,144 @@
+
+.entry-header.blog-header.events-calendar-header {
+    background: #fff!important;
+    padding-bottom: 0!important;
+}
+
+.tribe-common .tribe-common-c-btn-border:hover, .tribe-common a.tribe-common-c-btn-border:hover {
+    color: #fff!important;
+}
+
+.theme-viva .tribe-common--breakpoint-medium.tribe-common .tribe-common-l-container {
+    padding-left: 25px!important;
+    padding-right: 25px!important;
+}
+
+.theme-viva .tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+    padding-top: 0px!important;
+}
+
+.theme-viva .events-archive footer.entry-header, .events-archive footer.entry-meta, .events-archive header.entry-header, .events-archive header.entry-meta, .events-archive span.edit-link, .single-tribe_events footer.entry-header, .single-tribe_events footer.entry-meta, .single-tribe_events header.entry-header, .single-tribe_events header.entry-meta, .single-tribe_organizer footer.entry-header, .single-tribe_organizer footer.entry-meta, .single-tribe_organizer header.entry-header, .single-tribe_organizer header.entry-meta, .single-tribe_venue footer.entry-header, .single-tribe_venue footer.entry-meta, .single-tribe_venue header.entry-header, .single-tribe_venue header.entry-meta {
+    display: block!important;
+}
+
+.theme-viva.single-tribe_events .tribe-events-single-event-title {
+    font-size: 60px!important;
+    line-height: 78px!important;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.tribe-events .tribe-events-c-ical__link:before {
+    display: none!important;
+}
+
+.single-tribe_events .tribe-events-schedule {
+    background: none;
+    border: none;
+}
+
+.navbar.navbar-default .menubar .topbar-search.mobile-search {
+    display: none;
+}
+
+#wrapper .tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+    padding-top: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#wrapper .tribe-common .tribe-common-h7,#wrapper .tribe-common .tribe-common-h8 {
+    color: #fff;
+    opacity: 1;
+}
+
+#wrapper #tribe-events-pg-template {
+    padding-top: 0;
+}
+
+.tribe-common .tribe-common-c-btn-border, .tribe-common a.tribe-common-c-btn-border,
+.tribe-common .tribe-common-anchor-alt:active,
+.tribe-common .tribe-common-anchor-alt:focus,
+.tribe-common .tribe-common-anchor-alt:hover
+.tribe-common .tribe-common-cta--alt:active,
+.tribe-common .tribe-common-cta--alt:focus,
+.tribe-common .tribe-common-cta--alt:hover,
+.tribe-events .tribe-events-c-ical__link,
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-list__event-datetime-featured-text,
+.tribe-events .tribe-events-calendar-month__day--current .tribe-events-calendar-month__day-date,
+.tribe-events .tribe-events-calendar-month__day--current .tribe-events-calendar-month__day-date-link,
+.tribe-events .tribe-events-calendar-month-mobile-events__mobile-event-datetime-featured-text,
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-day__event-datetime-featured-text,
+.single-tribe_events a.tribe-events-gcal,
+.single-tribe_events a.tribe-events-gcal:hover,
+.single-tribe_events a.tribe-events-ical,
+.single-tribe_events a.tribe-events-ical:hover {
+    color: var(--main-color)!important;
+}
+
+.tribe-common .tribe-common-c-btn-border, .tribe-common a.tribe-common-c-btn-border,
+.tribe-common .tribe-common-anchor-alt,
+.tribe-common .tribe-common-anchor-alt:active,
+.tribe-common .tribe-common-anchor-alt:focus,
+.tribe-common .tribe-common-anchor-alt:hover,
+.tribe-common .tribe-common-cta--alt,
+.tribe-events .tribe-events-c-ical__link {
+    border-color: var(--main-color)!important;
+}
+
+.tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button.tribe-events-c-subscribe-dropdown__button--active, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:focus, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:focus-within, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button:hover,
+.tribe-events .tribe-events-calendar-month__multiday-event--past .tribe-events-calendar-month__multiday-event-bar-inner,
+.tribe-events .tribe-events-calendar-month__multiday-event-bar-inner,
+.tribe-common .tribe-common-form-control-toggle__input:checked,
+.tribe-common .tribe-common-c-btn,
+.tribe-common a.tribe-common-c-btn,
+.tribe-events .datepicker .day.active,
+.tribe-events .datepicker .day.active.focused,
+.tribe-events .datepicker .day.active:focus,
+.tribe-events .datepicker .day.active:hover,
+.tribe-events .datepicker .month.active,
+.tribe-events .datepicker .month.active.focused,
+.tribe-events .datepicker .month.active:focus,
+.tribe-events .datepicker .month.active:hover,
+.tribe-events .datepicker .year.active,
+.tribe-events .datepicker .year.active.focused,
+.tribe-events .datepicker .year.active:focus,
+.tribe-events .datepicker .year.active:hover,
+.tribe-events .tribe-events-c-events-bar__search-button:before,
+.tribe-events .tribe-events-c-ical__link:active,
+.tribe-events .tribe-events-c-ical__link:focus,
+.tribe-events .tribe-events-c-ical__link:hover,
+#tribe-events .tribe-events-button,
+.tribe-events .tribe-events-c-view-selector__button:before,
+.tribe-events .tribe-events-calendar-list__event-row--featured .tribe-events-calendar-list__event-date-tag-datetime:after,
+.tribe-events .tribe-events-calendar-month__calendar-event--featured:before,
+.tribe-events .tribe-events-calendar-month__day-cell--selected,
+.tribe-events .tribe-events-calendar-month__day-cell--selected:focus,
+.tribe-events .tribe-events-calendar-month__day-cell--selected:hover,
+.tribe-events .tribe-events-calendar-month__mobile-events-icon--event,
+.tribe-theme-twentyseventeen .tribe-events .tribe-events-calendar-month__day-cell--selected:focus,
+.tribe-theme-twentyseventeen .tribe-events .tribe-events-calendar-month__day-cell--selected:hover,
+.tribe-theme-twentytwenty .tribe-events .tribe-events-calendar-month__day-cell--selected,
+.tribe-events .tribe-events-calendar-day__event--featured:after {
+    background-color: var(--main-color)!important;
+}
+
+.tribe-common .tribe-common-c-btn {
+    background: linear-gradient(90deg, var(--gradient-start-color) 0%, var(--gradient-end-color) 100%);
+}
+
+.tribe-common .tribe-common-c-btn:hover {
+    background: linear-gradient(90deg, var(--gradient-end-color) 0%, var(--gradient-start-color) 100%);
+}
+
+.tribe-common .tribe-common-c-btn:focus, .tribe-common .tribe-common-c-btn:hover, .tribe-common a.tribe-common-c-btn:focus, .tribe-common a.tribe-common-c-btn:hover {
+	background-color: var(--secondary-color)!important;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-events-bar--border,
+.tribe-events .tribe-events-c-ical__link,
+.tribe-common .tribe-common-c-btn, .tribe-common a.tribe-common-c-btn {
+	border-radius: var(--button-border-radius)!important;
+}
+
+:root { --tec-font-family-sans-serif: inherit }

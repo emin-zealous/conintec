@@ -1,0 +1,3381 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Viva\n"
+"POT-Creation-Date: 2022-12-05 19:45+0200\n"
+"PO-Revision-Date: 2020-12-16 15:39+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;_n;_x;_ex;_nx;_n_noop;_nx_noop;"
+"esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:22
+msgid "404 - Page Not Found"
+msgstr ""
+
+#: 404.php:28
+msgid "The page you are looking for does not exist."
+msgstr ""
+
+#: 404.php:34
+msgid "Back to homepage"
+msgstr ""
+
+#: comments.php:30
+msgid "Comments"
+msgstr ""
+
+#: comments.php:33 comments.php:49
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:34 comments.php:50
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:35 comments.php:51
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:334
+#: core/theme-activation.php:84
+msgid "Install Required Plugins"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:337
+#: core/theme-activation.php:86
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:340
+#: core/theme-activation.php:87
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:343
+#: core/theme-activation.php:88
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:349
+#: core/theme-activation.php:89
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:355
+#: core/theme-activation.php:94
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:367
+#: core/theme-activation.php:91
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:373
+#: core/theme-activation.php:92
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:378
+#: core/theme-activation.php:96
+msgid "Begin installing plugin"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:392
+#: core/theme-activation.php:98
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:393
+#: core/assets/extra/class-tgm-plugin-activation.php:917
+#: core/assets/extra/class-tgm-plugin-activation.php:2623
+#: core/assets/extra/class-tgm-plugin-activation.php:3670
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:394
+#: core/assets/extra/class-tgm-plugin-activation.php:3249
+#: core/theme-activation.php:99
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:395
+#: core/assets/extra/class-tgm-plugin-activation.php:3042
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:1024
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:1024
+#: core/assets/extra/class-tgm-plugin-activation.php:1027
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:1211
+#: core/assets/extra/class-tgm-plugin-activation.php:3038
+msgid "and"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2363
+msgid "Required"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2366
+msgid "Recommended"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2382
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2385
+msgid "External Source"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2388
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2405
+msgid "Not Installed"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2409
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2411
+msgid "Active"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2417
+msgid "Required Update not Available"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2420
+msgid "Requires Update"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2423
+msgid "Update recommended"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2432
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2478
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2482
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2486
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2490
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2572
+msgid "unknown"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2580
+msgid "Installed version:"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2588
+msgid "Minimum required version:"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2600
+msgid "Available version:"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2623
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2637
+msgid "Plugin"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2638
+msgid "Source"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2639
+msgid "Type"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2643
+msgid "Version"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2644
+msgid "Status"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2698
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2704
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2774
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2807
+msgid "Install"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2813
+msgid "Update"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2816
+msgid "Activate"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2847
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2849
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2890
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2892
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:2998
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3024
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3248
+msgid "Plugin activation failed."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3593
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3597
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3599
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3600
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3605
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3607
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3608
+msgid "All installations have been completed."
+msgstr ""
+
+#: core/assets/extra/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/assets/extra/wp_bootstrap_navwalker.php:173
+msgid "Add a menu"
+msgstr ""
+
+#: core/helper-functions.php:104
+msgid "Search for:"
+msgstr ""
+
+#: core/helper-functions.php:105
+msgid "Search &hellip;"
+msgstr ""
+
+#: core/helper-functions.php:458
+msgid "Protected page"
+msgstr ""
+
+#: core/helper-functions.php:459
+msgid ""
+"This content is password protected.<br /> Please enter a password to view."
+msgstr ""
+
+#: core/helper-functions.php:461
+msgid "Enter your password"
+msgstr ""
+
+#: core/helper-functions.php:462
+msgid "Submit"
+msgstr ""
+
+#: core/helper-functions.php:462
+msgid "Enter"
+msgstr ""
+
+#: core/helper-functions.php:545
+msgid "Viva by KeyDesign. All rights reserved."
+msgstr ""
+
+#: core/init.php:178
+msgid "Header Menu"
+msgstr ""
+
+#: core/init.php:179
+msgid "Topbar Menu"
+msgstr ""
+
+#: core/init.php:180
+msgid "Footer Menu"
+msgstr ""
+
+#: core/init.php:455
+msgid "Maintenance Mode is <strong>enabled</strong>."
+msgstr ""
+
+#: core/init.php:468
+msgid ""
+"The Maintenance Mode is <strong>enabled</strong>. Don't forget to deactivate "
+"as soon as you are done."
+msgstr ""
+
+#: core/options-init.php:18 core/options-init.php:19
+msgid "Theme Options"
+msgstr ""
+
+#: core/options-init.php:40
+msgid "Business Info"
+msgstr ""
+
+#: core/options-init.php:41
+msgid ""
+"Edit the contact details for your company/organization. These details are "
+"listed in Theme Options > Header > Topbar / Popup Modal / Panel."
+msgstr ""
+
+#: core/options-init.php:46
+msgid "Business Phone"
+msgstr ""
+
+#: core/options-init.php:53
+msgid "Secondary Business Phone"
+msgstr ""
+
+#: core/options-init.php:60
+msgid "Business Email"
+msgstr ""
+
+#: core/options-init.php:67
+msgid "Business Opening Hours"
+msgstr ""
+
+#: core/options-init.php:82
+msgid "Global Options"
+msgstr ""
+
+#: core/options-init.php:87
+msgid "Global Settings"
+msgstr ""
+
+#: core/options-init.php:88
+msgid "General settings that are applied site-wide."
+msgstr ""
+
+#: core/options-init.php:94
+msgid "Smooth Mouse Scroll"
+msgstr ""
+
+#: core/options-init.php:95
+msgid ""
+"Turn on to replace basic website scrolling effect with nice smooth scroll."
+msgstr ""
+
+#: core/options-init.php:101
+msgid "Google Map API Key"
+msgstr ""
+
+#: core/options-init.php:103
+msgid "Generate, copy and paste here Google Maps API Key."
+msgstr ""
+
+#: core/options-init.php:104
+msgid ""
+"<a href=\"https://developers.google.com/maps/documentation/javascript/get-"
+"api-key\" target=\\\"_blank\\\">Generate API key</a>"
+msgstr ""
+
+#: core/options-init.php:109
+msgid "Disable Animations on Mobile"
+msgstr ""
+
+#: core/options-init.php:110
+msgid "Turn on/off element animation on mobile."
+msgstr ""
+
+#: core/options-init.php:118
+msgid "Color Schemes"
+msgstr ""
+
+#: core/options-init.php:119
+msgid "General color schemes that are applied site-wide."
+msgstr ""
+
+#: core/options-init.php:125
+msgid "Theme Accent Colors"
+msgstr ""
+
+#: core/options-init.php:132
+msgid "Primary Accent Color"
+msgstr ""
+
+#: core/options-init.php:133
+msgid "Option for setting the primary color of the theme."
+msgstr ""
+
+#: core/options-init.php:141
+msgid "Secondary Accent Color"
+msgstr ""
+
+#: core/options-init.php:142
+msgid "Option for setting the secondary color of the theme."
+msgstr ""
+
+#: core/options-init.php:154
+msgid "Theme Gradient Colors"
+msgstr ""
+
+#: core/options-init.php:161
+msgid "Gradient Start Color"
+msgstr ""
+
+#: core/options-init.php:162
+msgid "Select the gradient start color."
+msgstr ""
+
+#: core/options-init.php:170
+msgid "Gradient End Color"
+msgstr ""
+
+#: core/options-init.php:171
+msgid "Select the gradient end color."
+msgstr ""
+
+#: core/options-init.php:183
+msgid "Theme Misc Colors"
+msgstr ""
+
+#: core/options-init.php:190 core/options-init.php:2666
+#: core/options-init.php:3002
+msgid "Title Bar Background Color"
+msgstr ""
+
+#: core/options-init.php:192
+msgid ""
+"Select the background color used for the single pages title bar section."
+msgstr ""
+
+#: core/options-init.php:199 core/options-init.php:3011
+msgid "Title Bar Text Color"
+msgstr ""
+
+#: core/options-init.php:201
+msgid "Select the single page title color."
+msgstr ""
+
+#: core/options-init.php:207
+msgid "Links Color"
+msgstr ""
+
+#: core/options-init.php:208
+msgid "Normal and hover states of default links."
+msgstr ""
+
+#: core/options-init.php:222 core/options-init.php:229
+msgid "Preloader"
+msgstr ""
+
+#: core/options-init.php:223
+msgid "Preloader general settings."
+msgstr ""
+
+#: core/options-init.php:230
+msgid "Enable/Disable a preloader screen before loading the page."
+msgstr ""
+
+#: core/options-init.php:237
+msgid "Preloader Background Color"
+msgstr ""
+
+#: core/options-init.php:238
+msgid "Edit preloader background color."
+msgstr ""
+
+#: core/options-init.php:247
+msgid "Preloader Image"
+msgstr ""
+
+#: core/options-init.php:248
+msgid "Upload preloader image/logo."
+msgstr ""
+
+#: core/options-init.php:255
+msgid "Preloader Image Size"
+msgstr ""
+
+#: core/options-init.php:256
+msgid "Control the preloader image size (pixel value). Example: 200."
+msgstr ""
+
+#: core/options-init.php:263
+msgid "Preloader Mobile Image Size"
+msgstr ""
+
+#: core/options-init.php:264
+msgid ""
+"Control the preloader image size on mobile devices (pixel value). Example: "
+"140."
+msgstr ""
+
+#: core/options-init.php:272
+msgid "Cursor"
+msgstr ""
+
+#: core/options-init.php:273
+msgid "Replace the default system cursor with an animated cursor."
+msgstr ""
+
+#: core/options-init.php:279
+msgid "Animated Cursor"
+msgstr ""
+
+#: core/options-init.php:280
+msgid "Turn on to enable the animated cursor effect."
+msgstr ""
+
+#: core/options-init.php:287
+msgid "Cursor Effect"
+msgstr ""
+
+#: core/options-init.php:288
+msgid "Select the cursor effect."
+msgstr ""
+
+#: core/options-init.php:301
+msgid "Cursor Effect Color"
+msgstr ""
+
+#: core/options-init.php:302
+msgid "Select the cursor effect color."
+msgstr ""
+
+#: core/options-init.php:315
+msgid "Grid Hover Cursor"
+msgstr ""
+
+#: core/options-init.php:316
+msgid ""
+"Enable/disable displaying an animated custom cursor when hovering the post "
+"or masonry grid elements."
+msgstr ""
+
+#: core/options-init.php:324
+msgid "Carousel Hover Cursor"
+msgstr ""
+
+#: core/options-init.php:325
+msgid ""
+"Enable/disable displaying an animated custom cursor when hovering the "
+"carousel type elements."
+msgstr ""
+
+#: core/options-init.php:334 core/options-init.php:341
+msgid "Go to Top Button"
+msgstr ""
+
+#: core/options-init.php:335
+msgid "Go to top button general settings."
+msgstr ""
+
+#: core/options-init.php:342
+msgid ""
+"Turn on to enable the Go to Top Button which adds scrolling to top "
+"functionality."
+msgstr ""
+
+#: core/options-init.php:348
+msgid "Go to Top Button Position"
+msgstr ""
+
+#: core/options-init.php:349
+msgid "Control the position of the \"Go to top\" button."
+msgstr ""
+
+#: core/options-init.php:360
+msgid "Scroll Position Animation"
+msgstr ""
+
+#: core/options-init.php:361
+msgid "Turn on to enable scroll position animation."
+msgstr ""
+
+#: core/options-init.php:369
+msgid "Header"
+msgstr ""
+
+#: core/options-init.php:374
+msgid "Header Bar"
+msgstr ""
+
+#: core/options-init.php:375
+msgid "Edit header bar general settings."
+msgstr ""
+
+#: core/options-init.php:381
+msgid "Header Bar Settings"
+msgstr ""
+
+#: core/options-init.php:387
+msgid "Header Bar Width"
+msgstr ""
+
+#: core/options-init.php:388
+msgid "Control the width of your main navigation menu:  Contained/Full Width."
+msgstr ""
+
+#: core/options-init.php:398
+msgid "Header Bar Behaviour"
+msgstr ""
+
+#: core/options-init.php:399
+msgid "select the header behavior when scrolling down the page"
+msgstr ""
+
+#: core/options-init.php:409
+msgid "Header Bar Spacing"
+msgstr ""
+
+#: core/options-init.php:410
+msgid "Control the top and bottom padding for the header bar. Pixel value."
+msgstr ""
+
+#: core/options-init.php:419
+msgid "Header Bar Background Color"
+msgstr ""
+
+#: core/options-init.php:420
+msgid "Select the background color for the fixed menu bar."
+msgstr ""
+
+#: core/options-init.php:428
+msgid "Sticky Header Bar Background Color"
+msgstr ""
+
+#: core/options-init.php:429
+msgid "Select the background color for the sticky menu bar."
+msgstr ""
+
+#: core/options-init.php:442
+msgid "Header Bar Icons"
+msgstr ""
+
+#: core/options-init.php:448
+msgid "Search Icon"
+msgstr ""
+
+#: core/options-init.php:449
+msgid "Turn on/off the search icon"
+msgstr ""
+
+#: core/options-init.php:455 core/options-init.php:462
+msgid "Cart Icon"
+msgstr ""
+
+#: core/options-init.php:456
+msgid "Turn on/off the cart icon."
+msgstr ""
+
+#: core/options-init.php:463
+msgid "Change cart icon style."
+msgstr ""
+
+#: core/options-init.php:475
+msgid "Wishlist Icon"
+msgstr ""
+
+#: core/options-init.php:476
+msgid "Turn on/off the wishlist icon."
+msgstr ""
+
+#: core/options-init.php:489
+msgid "Logo"
+msgstr ""
+
+#: core/options-init.php:490
+msgid "General logo settings."
+msgstr ""
+
+#: core/options-init.php:496
+msgid "Logo Alignment"
+msgstr ""
+
+#: core/options-init.php:497
+msgid "Control the position of the logo."
+msgstr ""
+
+#: core/options-init.php:498
+msgid "If set to \"Center\" the main menu will be automatically centered."
+msgstr ""
+
+#: core/options-init.php:512
+msgid "Logo Spacing"
+msgstr ""
+
+#: core/options-init.php:513
+msgid "Control the top and bottom padding for the logo element."
+msgstr ""
+
+#: core/options-init.php:522
+msgid "Logo Type"
+msgstr ""
+
+#: core/options-init.php:523
+msgid "Select the logo type: Text/Image."
+msgstr ""
+
+#: core/options-init.php:536
+msgid "Primary Image Logo"
+msgstr ""
+
+#: core/options-init.php:537
+msgid "Upload primary logo image. This logo is used with the fixed header bar."
+msgstr ""
+
+#: core/options-init.php:545
+msgid "Secondary Image Logo"
+msgstr ""
+
+#: core/options-init.php:546
+msgid "Upload secondary image logo."
+msgstr ""
+
+#: core/options-init.php:552
+msgid "Sticky Header Logo Image"
+msgstr ""
+
+#: core/options-init.php:553
+msgid "Select logo image for the sticky header bar."
+msgstr ""
+
+#: core/options-init.php:568
+msgid "Transparent Header Logo Image"
+msgstr ""
+
+#: core/options-init.php:569
+msgid "Select logo image for the transparent header bar."
+msgstr ""
+
+#: core/options-init.php:581
+msgid "Logo Image Size"
+msgstr ""
+
+#: core/options-init.php:588
+msgid "Logo Width"
+msgstr ""
+
+#: core/options-init.php:589
+msgid "Control the logo width (eg. 200)."
+msgstr ""
+
+#: core/options-init.php:596
+msgid "Logo Height"
+msgstr ""
+
+#: core/options-init.php:597
+msgid "Control the logo height (eg. 60). Leave empty for auto height."
+msgstr ""
+
+#: core/options-init.php:604
+msgid "Mobile Logo Width"
+msgstr ""
+
+#: core/options-init.php:605
+msgid "Control the mobile logo width (eg. 140)."
+msgstr ""
+
+#: core/options-init.php:612
+msgid "Mobile Logo Height"
+msgstr ""
+
+#: core/options-init.php:613
+msgid "Control the mobile logo height (eg. 60). Leave empty for auto height."
+msgstr ""
+
+#: core/options-init.php:624
+msgid "Text Logo"
+msgstr ""
+
+#: core/options-init.php:625
+msgid "Name of your website displayed instead of the regular image logo"
+msgstr ""
+
+#: core/options-init.php:632
+msgid "Text Logo Font Settings"
+msgstr ""
+
+#: core/options-init.php:633
+msgid "Edit the typography settings of your text logo."
+msgstr ""
+
+#: core/options-init.php:651
+msgid "Primary Logo Text Color"
+msgstr ""
+
+#: core/options-init.php:652
+msgid "Default logo text color"
+msgstr ""
+
+#: core/options-init.php:661
+msgid "Secondary Logo Text Color"
+msgstr ""
+
+#: core/options-init.php:662
+msgid "Logo text color for sticky navigation"
+msgstr ""
+
+#: core/options-init.php:672
+msgid "Main Menu"
+msgstr ""
+
+#: core/options-init.php:673
+msgid "Edit main menu general settings."
+msgstr ""
+
+#: core/options-init.php:679
+msgid "Main Menu Settings"
+msgstr ""
+
+#: core/options-init.php:685
+msgid "Menu Alignment"
+msgstr ""
+
+#: core/options-init.php:686
+msgid "Control the position of the main menu."
+msgstr ""
+
+#: core/options-init.php:698
+msgid "Menu Font Settings"
+msgstr ""
+
+#: core/options-init.php:699
+msgid "Control the typography settings of the menu."
+msgstr ""
+
+#: core/options-init.php:722
+msgid "Menu Link Color"
+msgstr ""
+
+#: core/options-init.php:723
+msgid "Select the default menu text color."
+msgstr ""
+
+#: core/options-init.php:731
+msgid "Menu Link Hover Color"
+msgstr ""
+
+#: core/options-init.php:732
+msgid "Select the default menu text color on mouse over."
+msgstr ""
+
+#: core/options-init.php:740
+msgid "Sticky Menu Link Color"
+msgstr ""
+
+#: core/options-init.php:741
+msgid "Select the sticky menu text color."
+msgstr ""
+
+#: core/options-init.php:750
+msgid "Sticky Menu Link Hover Color"
+msgstr ""
+
+#: core/options-init.php:751
+msgid "Select the sticky menu text color on mouse over."
+msgstr ""
+
+#: core/options-init.php:759
+msgid "Dropdown Menu Link Hover Effect"
+msgstr ""
+
+#: core/options-init.php:760
+msgid "Select the hover effect on dropdown menu links."
+msgstr ""
+
+#: core/options-init.php:779
+msgid "Top Bar"
+msgstr ""
+
+#: core/options-init.php:780
+msgid "Edit topbar general settings."
+msgstr ""
+
+#: core/options-init.php:786
+msgid "Enable Topbar"
+msgstr ""
+
+#: core/options-init.php:787
+msgid "Enable/Disable the topbar."
+msgstr ""
+
+#: core/options-init.php:793
+msgid "Sticky Topbar"
+msgstr ""
+
+#: core/options-init.php:795
+msgid "Enable/Disable sticky topbar."
+msgstr ""
+
+#: core/options-init.php:801
+msgid "Enable Topbar on Mobile"
+msgstr ""
+
+#: core/options-init.php:803
+msgid "Show/hide the topbar  on mobile devices."
+msgstr ""
+
+#: core/options-init.php:809
+msgid "Topbar Left Content"
+msgstr ""
+
+#: core/options-init.php:810
+msgid "Select the content for the topbar left section."
+msgstr ""
+
+#: core/options-init.php:824
+msgid "Topbar Right Content"
+msgstr ""
+
+#: core/options-init.php:825
+msgid "Select the content for the topbar right section."
+msgstr ""
+
+#: core/options-init.php:839
+msgid "Topbar Content Design"
+msgstr ""
+
+#: core/options-init.php:840
+msgid "Select the topbar content design."
+msgstr ""
+
+#: core/options-init.php:852
+msgid "Topbar Font Settings"
+msgstr ""
+
+#: core/options-init.php:853
+msgid "Select topbar font weight and size."
+msgstr ""
+
+#: core/options-init.php:869
+msgid "Topbar Background Color"
+msgstr ""
+
+#: core/options-init.php:870
+msgid "Select topbar background color."
+msgstr ""
+
+#: core/options-init.php:879
+msgid "Topbar Border Color"
+msgstr ""
+
+#: core/options-init.php:880
+msgid "Select topbar border color."
+msgstr ""
+
+#: core/options-init.php:891
+msgid "Topbar Text Color"
+msgstr ""
+
+#: core/options-init.php:892
+msgid "Edit  topbar text & links color."
+msgstr ""
+
+#: core/options-init.php:901
+msgid "Topbar Text Hover Color"
+msgstr ""
+
+#: core/options-init.php:902
+msgid "Edit  topbar links color on mouse over."
+msgstr ""
+
+#: core/options-init.php:912
+msgid "Popup Modal"
+msgstr ""
+
+#: core/options-init.php:913
+msgid ""
+"Control the settings of the popup modal used to display additional content "
+"on all pages and posts, without sacrificing space. The modal box can be "
+"triggered using the button displayed near the Main Menu. This button can "
+"also be used to open a new page or smooth scroll to a page section ID."
+msgstr ""
+
+#: core/options-init.php:919 core/options-init.php:1190
+msgid "Header Button Settings"
+msgstr ""
+
+#: core/options-init.php:925 core/options-init.php:1196
+msgid "Enable Header Button"
+msgstr ""
+
+#: core/options-init.php:926
+msgid ""
+"Enable/disable the header button. The button will be displayed near the main "
+"navigation area to the right."
+msgstr ""
+
+#: core/options-init.php:932 core/options-init.php:1203
+msgid "Button Text"
+msgstr ""
+
+#: core/options-init.php:933 core/options-init.php:1204
+#: core/options-init.php:1225
+msgid "Edit header button text."
+msgstr ""
+
+#: core/options-init.php:939 core/options-init.php:1210
+msgid "Button Color Scheme"
+msgstr ""
+
+#: core/options-init.php:940 core/options-init.php:1211
+msgid ""
+"Edit header button color scheme. Color selections can be made in Theme "
+"Options > Global Options > Color schemes."
+msgstr ""
+
+#: core/options-init.php:952 core/options-init.php:1223
+msgid "Button Style"
+msgstr ""
+
+#: core/options-init.php:953 core/options-init.php:1224
+msgid "Edit header button style."
+msgstr ""
+
+#: core/options-init.php:965 core/options-init.php:1237
+msgid "Button Hover State"
+msgstr ""
+
+#: core/options-init.php:966 core/options-init.php:1238
+msgid "Edit header button style on mouse over."
+msgstr ""
+
+#: core/options-init.php:983 core/options-init.php:1255
+msgid "Button Action"
+msgstr ""
+
+#: core/options-init.php:984
+msgid ""
+"Select button action: Open modal / Scroll to a section / Open a new page."
+msgstr ""
+
+#: core/options-init.php:996 core/options-init.php:1268
+msgid "Extra CSS Class"
+msgstr ""
+
+#: core/options-init.php:997 core/options-init.php:1117
+#: core/options-init.php:1269 core/options-init.php:1393
+msgid "Add a class to the wrapping HTML element for further CSS customization."
+msgstr ""
+
+#: core/options-init.php:1008
+msgid "Modal Box Settings"
+msgstr ""
+
+#: core/options-init.php:1015
+msgid "Modal Heading"
+msgstr ""
+
+#: core/options-init.php:1016
+msgid "Heading text for the modal."
+msgstr ""
+
+#: core/options-init.php:1023
+msgid "Modal Contents"
+msgstr ""
+
+#: core/options-init.php:1024
+msgid "Content text for the modal. HTML is allowed."
+msgstr ""
+
+#: core/options-init.php:1038
+msgid "Modal Background Image"
+msgstr ""
+
+#: core/options-init.php:1039
+msgid "Upload modal background image."
+msgstr ""
+
+#: core/options-init.php:1046 core/options-init.php:1322
+msgid "Contact Links"
+msgstr ""
+
+#: core/options-init.php:1047 core/options-init.php:1323
+msgid ""
+"Enable/Disable the phone and email links. The links can be configured in the "
+"Business Info panel."
+msgstr ""
+
+#: core/options-init.php:1053 core/options-init.php:1329
+msgid "Social Icons"
+msgstr ""
+
+#: core/options-init.php:1054
+msgid ""
+"Enable/Disable social icons list. The list can be configured in the Business "
+"Info panel."
+msgstr ""
+
+#: core/options-init.php:1060 core/options-init.php:1336
+#: core/options-init.php:3672
+msgid "Contact Form Plugin"
+msgstr ""
+
+#: core/options-init.php:1061
+msgid ""
+"Display a contact form inside the Modal Box. Select the contact vendor from "
+"the dropdown list."
+msgstr ""
+
+#: core/options-init.php:1078 core/options-init.php:1354
+#: core/options-init.php:3689
+msgid "Contact Form 7 Title"
+msgstr ""
+
+#: core/options-init.php:1079 core/options-init.php:1355
+msgid ""
+"Select the Contact Form 7 from the dropdown. The list is automatically "
+"populated."
+msgstr ""
+
+#: core/options-init.php:1087 core/options-init.php:1363
+#: core/options-init.php:3697
+msgid "Ninja Form ID"
+msgstr ""
+
+#: core/options-init.php:1094 core/options-init.php:1370
+#: core/options-init.php:3704
+msgid "Gravity Form ID"
+msgstr ""
+
+#: core/options-init.php:1101 core/options-init.php:1377
+#: core/options-init.php:3711
+msgid "WP Form ID"
+msgstr ""
+
+#: core/options-init.php:1108 core/options-init.php:1384
+#: core/options-init.php:3718
+msgid "Form Shortcode"
+msgstr ""
+
+#: core/options-init.php:1109 core/options-init.php:1385
+#: core/options-init.php:3719
+msgid "Insert the shortcode for a custom contact form plugin."
+msgstr ""
+
+#: core/options-init.php:1116 core/options-init.php:1392
+msgid "CSS Class"
+msgstr ""
+
+#: core/options-init.php:1129 core/options-init.php:1405
+msgid "Scroll Section Settings"
+msgstr ""
+
+#: core/options-init.php:1136 core/options-init.php:1412
+msgid "Scroll to Section ID"
+msgstr ""
+
+#: core/options-init.php:1149
+msgid "New Page Link Settings"
+msgstr ""
+
+#: core/options-init.php:1156 core/options-init.php:1432
+msgid "Button Link"
+msgstr ""
+
+#: core/options-init.php:1163 core/options-init.php:1439
+msgid "Link Target"
+msgstr ""
+
+#: core/options-init.php:1183
+msgid "Panel"
+msgstr ""
+
+#: core/options-init.php:1184
+msgid ""
+"Control the settings of the Panel used to display additional content on all "
+"pages and posts, without sacrificing space. The Panel can be triggered using "
+"the Header Button displayed near the Main Menu. This button can also be used "
+"to open a new page or smooth scroll to a page section ID."
+msgstr ""
+
+#: core/options-init.php:1197
+msgid ""
+"Enable/disable the panel. The button will be displayed near the main "
+"navigation area to the right."
+msgstr ""
+
+#: core/options-init.php:1256
+msgid ""
+"Select button action: Open panel / Scroll to a section / Open a new page."
+msgstr ""
+
+#: core/options-init.php:1280
+msgid "Panel Settings"
+msgstr ""
+
+#: core/options-init.php:1287
+msgid "Panel Position"
+msgstr ""
+
+#: core/options-init.php:1288
+msgid "The Panel can appear from the top, left or right edge of the screen."
+msgstr ""
+
+#: core/options-init.php:1289
+msgid "The Top option opens to full-screen mode."
+msgstr ""
+
+#: core/options-init.php:1301
+msgid "Panel Heading"
+msgstr ""
+
+#: core/options-init.php:1302
+msgid "Heading text for the panel."
+msgstr ""
+
+#: core/options-init.php:1309
+msgid "Panel Contents"
+msgstr ""
+
+#: core/options-init.php:1310
+msgid "Content text for the panel."
+msgstr ""
+
+#: core/options-init.php:1330
+msgid ""
+"Enable/Disable the social icons list. The list can be configured in the "
+"Business Info panel."
+msgstr ""
+
+#: core/options-init.php:1337
+msgid ""
+"Display a contact form inside the Panel. Select the contact vendor from the "
+"dropdown list."
+msgstr ""
+
+#: core/options-init.php:1425
+msgid "New Page Settings"
+msgstr ""
+
+#: core/options-init.php:1459
+msgid "Layout"
+msgstr ""
+
+#: core/options-init.php:1460
+msgid "General layout settings that are applied site-wide."
+msgstr ""
+
+#: core/options-init.php:1465 core/options-init.php:2745
+#: core/options-init.php:2884 core/options-init.php:3369
+msgid "General Settings"
+msgstr ""
+
+#: core/options-init.php:1471
+msgid "Layout Style"
+msgstr ""
+
+#: core/options-init.php:1472
+msgid "Select the general width for the entire site."
+msgstr ""
+
+#: core/options-init.php:1482
+msgid "Content Width"
+msgstr ""
+
+#: core/options-init.php:1483
+msgid "Control the width of the boxed content area."
+msgstr ""
+
+#: core/options-init.php:1493
+msgid "Body Background Settings"
+msgstr ""
+
+#: core/options-init.php:1494
+msgid ""
+"Option available only if the layout style Boxed is selected. Configure the "
+"body background settings."
+msgstr ""
+
+#: core/options-init.php:1502
+msgid "Content Background Color"
+msgstr ""
+
+#: core/options-init.php:1503
+msgid "Select the content background color."
+msgstr ""
+
+#: core/options-init.php:1515
+msgid "Vertical Lines"
+msgstr ""
+
+#: core/options-init.php:1521
+msgid "Vertical Lines - Shop"
+msgstr ""
+
+#: core/options-init.php:1522
+msgid "Enable the vertical lines design on WooCommerce shop archive pages."
+msgstr ""
+
+#: core/options-init.php:1528
+msgid "Vertical Lines - Single Product"
+msgstr ""
+
+#: core/options-init.php:1529
+msgid "Enable the vertical lines design on WooCommerce single product pages."
+msgstr ""
+
+#: core/options-init.php:1535
+msgid "Vertical Lines - Blog"
+msgstr ""
+
+#: core/options-init.php:1536
+msgid "Enable vertical lines design on blog posts archive pages."
+msgstr ""
+
+#: core/options-init.php:1542
+msgid "Vertical Lines - Single Blog Post"
+msgstr ""
+
+#: core/options-init.php:1543
+msgid "Enable vertical lines design on single blog posts pages."
+msgstr ""
+
+#: core/options-init.php:1556
+msgid "Footer"
+msgstr ""
+
+#: core/options-init.php:1561
+msgid "Footer Settings"
+msgstr ""
+
+#: core/options-init.php:1562
+msgid "Footer global options."
+msgstr ""
+
+#: core/options-init.php:1568
+msgid "Footer Global Options"
+msgstr ""
+
+#: core/options-init.php:1574
+msgid "Footer Width"
+msgstr ""
+
+#: core/options-init.php:1575
+msgid "Control the width of the footer area."
+msgstr ""
+
+#: core/options-init.php:1585
+msgid "Fixed Footer"
+msgstr ""
+
+#: core/options-init.php:1586
+msgid "Enable/disable the footer fixed scroll effect."
+msgstr ""
+
+#: core/options-init.php:1592
+msgid "Footer Bar"
+msgstr ""
+
+#: core/options-init.php:1593
+msgid "Enable/Disable the footer bar. Contains footer menu and social icons."
+msgstr ""
+
+#: core/options-init.php:1600
+msgid "Upper Footer Background Color"
+msgstr ""
+
+#: core/options-init.php:1601
+msgid "Select the upper footer background color."
+msgstr ""
+
+#: core/options-init.php:1609
+msgid "Lower Footer Background Color"
+msgstr ""
+
+#: core/options-init.php:1610
+msgid "Select the lower footer background color."
+msgstr ""
+
+#: core/options-init.php:1618
+msgid "Footer Border Color"
+msgstr ""
+
+#: core/options-init.php:1619
+msgid "Select footer border color."
+msgstr ""
+
+#: core/options-init.php:1631
+msgid "Footer Background Image"
+msgstr ""
+
+#: core/options-init.php:1639 core/options-init.php:3334
+msgid "Background Image"
+msgstr ""
+
+#: core/options-init.php:1640
+msgid ""
+"Select an image for the footer area. If left empty, the footer background "
+"color will be used."
+msgstr ""
+
+#: core/options-init.php:1645
+msgid "Background Style"
+msgstr ""
+
+#: core/options-init.php:1646
+msgid "Select how the background image repeats."
+msgstr ""
+
+#: core/options-init.php:1659
+msgid "Background Position"
+msgstr ""
+
+#: core/options-init.php:1660
+msgid "Select how the background image is positioned."
+msgstr ""
+
+#: core/options-init.php:1686 core/options-init.php:1694
+msgid "Footer Typography"
+msgstr ""
+
+#: core/options-init.php:1687
+msgid "Footer typography settings."
+msgstr ""
+
+#: core/options-init.php:1695
+msgid "Edit the typography settings of the footer."
+msgstr ""
+
+#: core/options-init.php:1717
+msgid "Footer Heading Color"
+msgstr ""
+
+#: core/options-init.php:1718
+msgid "Select the text color used for the footer widget titles."
+msgstr ""
+
+#: core/options-init.php:1726
+msgid "Footer Text Color"
+msgstr ""
+
+#: core/options-init.php:1727
+msgid "Select the text color used for the footer widget paragraphs."
+msgstr ""
+
+#: core/options-init.php:1734
+msgid "Footer Link Color"
+msgstr ""
+
+#: core/options-init.php:1735
+msgid "Select the text color used for the footer links."
+msgstr ""
+
+#: core/options-init.php:1742
+msgid "Footer Link Hover Effect"
+msgstr ""
+
+#: core/options-init.php:1743
+msgid "Select the hover effect on footer links."
+msgstr ""
+
+#: core/options-init.php:1756
+msgid "Footer Widgets"
+msgstr ""
+
+#: core/options-init.php:1757
+msgid ""
+"Footer widgets settings. The footer area allows up to 12 columns across the "
+"page. All widget areas combined should add up to 12 columns."
+msgstr ""
+
+#: core/options-init.php:1763
+msgid "Footer Widgets Section"
+msgstr ""
+
+#: core/options-init.php:1764
+msgid "Enable/Disable the footer widget section. Contains footer widget areas."
+msgstr ""
+
+#: core/options-init.php:1770 core/options-init.php:1777
+msgid "First Widget Area"
+msgstr ""
+
+#: core/options-init.php:1778
+msgid "Enable/Disable the footer first widget area."
+msgstr ""
+
+#: core/options-init.php:1784
+msgid "First Widget Width"
+msgstr ""
+
+#: core/options-init.php:1785
+msgid "Control the width of the first footer widget area."
+msgstr ""
+
+#: core/options-init.php:1799
+msgid "First Widget Text Align"
+msgstr ""
+
+#: core/options-init.php:1800
+msgid "Select content text alignment for the first footer widget area."
+msgstr ""
+
+#: core/options-init.php:1817 core/options-init.php:1824
+msgid "Second Widget Area"
+msgstr ""
+
+#: core/options-init.php:1825
+msgid "Enable/Disable the footer second widget area."
+msgstr ""
+
+#: core/options-init.php:1831
+msgid "Second Widget Width"
+msgstr ""
+
+#: core/options-init.php:1832
+msgid "Control the width of the second footer widget area."
+msgstr ""
+
+#: core/options-init.php:1846
+msgid "Second Widget Text Align"
+msgstr ""
+
+#: core/options-init.php:1847
+msgid "Select content text alignment for the second footer widget area."
+msgstr ""
+
+#: core/options-init.php:1864 core/options-init.php:1871
+msgid "Third Widget Area"
+msgstr ""
+
+#: core/options-init.php:1872
+msgid "Enable/Disable the footer third widget area."
+msgstr ""
+
+#: core/options-init.php:1878
+msgid "Third Widget Width"
+msgstr ""
+
+#: core/options-init.php:1879
+msgid "Control the width of the third footer widget area."
+msgstr ""
+
+#: core/options-init.php:1893
+msgid "Third Widget Text Align"
+msgstr ""
+
+#: core/options-init.php:1894
+msgid "Select content text alignment for the third footer widget area."
+msgstr ""
+
+#: core/options-init.php:1911 core/options-init.php:1918
+msgid "Fourth Widget Area"
+msgstr ""
+
+#: core/options-init.php:1919
+msgid "Enable/Disable the footer fourth widget area."
+msgstr ""
+
+#: core/options-init.php:1925
+msgid "Fourth Widget Width"
+msgstr ""
+
+#: core/options-init.php:1926
+msgid "Control the width of the fourth footer widget area."
+msgstr ""
+
+#: core/options-init.php:1940
+msgid "Fourth Widget Text Align"
+msgstr ""
+
+#: core/options-init.php:1941
+msgid "Select content text alignment for the fourth footer widget area."
+msgstr ""
+
+#: core/options-init.php:1958 core/options-init.php:1965
+msgid "Fifth Widget Area"
+msgstr ""
+
+#: core/options-init.php:1966
+msgid "Enable/Disable the footer fifth widget area."
+msgstr ""
+
+#: core/options-init.php:1972
+msgid "Fifth Widget Width"
+msgstr ""
+
+#: core/options-init.php:1973
+msgid "Control the width of the fifth footer widget area."
+msgstr ""
+
+#: core/options-init.php:1987
+msgid "Fifth Widget Text Align"
+msgstr ""
+
+#: core/options-init.php:1988
+msgid "Select content text alignment for the fifth footer widget area."
+msgstr ""
+
+#: core/options-init.php:2005 core/options-init.php:2012
+msgid "Sixth Widget Area"
+msgstr ""
+
+#: core/options-init.php:2013
+msgid "Enable/Disable the footer sixth widget area."
+msgstr ""
+
+#: core/options-init.php:2019
+msgid "Sixth Widget Width"
+msgstr ""
+
+#: core/options-init.php:2020
+msgid "Control the width of the sixth footer widget area."
+msgstr ""
+
+#: core/options-init.php:2034
+msgid "Sixth Widget Text Align"
+msgstr ""
+
+#: core/options-init.php:2035
+msgid "Select content text alignment for the sixth footer widget area."
+msgstr ""
+
+#: core/options-init.php:2054
+msgid "Footer Copyright"
+msgstr ""
+
+#: core/options-init.php:2055
+msgid "Footer copyright settings."
+msgstr ""
+
+#: core/options-init.php:2061
+msgid "Footer Copyright Section"
+msgstr ""
+
+#: core/options-init.php:2062
+msgid ""
+"Enable/Disable the footer copyright section. Contains the copyright text."
+msgstr ""
+
+#: core/options-init.php:2068
+msgid "Copyright Text"
+msgstr ""
+
+#: core/options-init.php:2069
+msgid ""
+"Enter footer copyright text. You can use the following shortcodes in your "
+"footer text: [copyright], [current_year], [site_title]."
+msgstr ""
+
+#: core/options-init.php:2081
+msgid "Copyright Text Alignment"
+msgstr ""
+
+#: core/options-init.php:2082
+msgid "Select the text alignment with footer copyright area."
+msgstr ""
+
+#: core/options-init.php:2099
+msgid "Typography"
+msgstr ""
+
+#: core/options-init.php:2104
+msgid "General Fonts"
+msgstr ""
+
+#: core/options-init.php:2105
+msgid ""
+"Customize the font properties across the entire website. Choose from over "
+"800 open-source Google fonts, free for commercial use."
+msgstr ""
+
+#: core/options-init.php:2111
+msgid ""
+"Important! Resetting this section will result in losing the demo imported "
+"settings and default to the theme original settings."
+msgstr ""
+
+#: core/options-init.php:2116 core/options-init.php:2227
+#: core/options-init.php:2379 core/options-init.php:2424
+msgid "Body Typography"
+msgstr ""
+
+#: core/options-init.php:2117
+msgid "Configure the global body font typography."
+msgstr ""
+
+#: core/options-init.php:2129 core/options-init.php:2235
+#: core/options-init.php:2441
+msgid "H1 Heading"
+msgstr ""
+
+#: core/options-init.php:2130
+msgid "Configure H1 heading typography."
+msgstr ""
+
+#: core/options-init.php:2140 core/options-init.php:2243
+#: core/options-init.php:2458
+msgid "H2 Heading"
+msgstr ""
+
+#: core/options-init.php:2141
+msgid "Configure H2 heading typography."
+msgstr ""
+
+#: core/options-init.php:2151 core/options-init.php:2251
+#: core/options-init.php:2475
+msgid "H3 Heading"
+msgstr ""
+
+#: core/options-init.php:2152
+msgid "Configure H3 heading typography."
+msgstr ""
+
+#: core/options-init.php:2162 core/options-init.php:2259
+#: core/options-init.php:2492
+msgid "H4 Heading"
+msgstr ""
+
+#: core/options-init.php:2163
+msgid "Configure H4 heading typography."
+msgstr ""
+
+#: core/options-init.php:2173 core/options-init.php:2267
+#: core/options-init.php:2509
+msgid "H5 Heading"
+msgstr ""
+
+#: core/options-init.php:2174
+msgid "Configure H5 heading typography."
+msgstr ""
+
+#: core/options-init.php:2184 core/options-init.php:2275
+#: core/options-init.php:2526
+msgid "H6 Heading"
+msgstr ""
+
+#: core/options-init.php:2185
+msgid "Configure H6 heading typography."
+msgstr ""
+
+#: core/options-init.php:2204
+msgid "Adobe Fonts"
+msgstr ""
+
+#: core/options-init.php:2205
+msgid ""
+"Adobe fonts are premium fonts that can be used only with an active monthly "
+"subscription to Adobe CC."
+msgstr ""
+
+#: core/options-init.php:2211
+msgid "Adobe Fonts Controls"
+msgstr ""
+
+#: core/options-init.php:2217
+msgid "Project ID"
+msgstr ""
+
+#: core/options-init.php:2218
+msgid ""
+"Add Adobe Project ID. Only published data is accessible. Please make sure "
+"that any changes of a kit are updated."
+msgstr ""
+
+#: core/options-init.php:2228
+msgid "Enter the font family name used for the body typography."
+msgstr ""
+
+#: core/options-init.php:2236
+msgid "Enter the font family name used for the H1 heading."
+msgstr ""
+
+#: core/options-init.php:2244
+msgid "Enter the font family name used for the H2 heading."
+msgstr ""
+
+#: core/options-init.php:2252
+msgid "Enter the font family name used for the H3 heading."
+msgstr ""
+
+#: core/options-init.php:2260
+msgid "Enter the font family name used for the H4 heading."
+msgstr ""
+
+#: core/options-init.php:2268
+msgid "Enter the font family name used for the H5 heading."
+msgstr ""
+
+#: core/options-init.php:2276
+msgid "Enter the font family name used for the H6 heading."
+msgstr ""
+
+#: core/options-init.php:2285
+msgid "Custom Fonts"
+msgstr ""
+
+#: core/options-init.php:2286
+msgid "Upload your own custom fonts. Only .ttf and .woff files are required."
+msgstr ""
+
+#: core/options-init.php:2292
+msgid "Custom Fonts Controls"
+msgstr ""
+
+#: core/options-init.php:2298
+msgid "Primary Custom Font"
+msgstr ""
+
+#: core/options-init.php:2305
+msgid "Primary .ttf File"
+msgstr ""
+
+#: core/options-init.php:2306
+msgid "Upload primary font .ttf file."
+msgstr ""
+
+#: core/options-init.php:2317
+msgid "Primary .woff File"
+msgstr ""
+
+#: core/options-init.php:2318
+msgid "Upload primary font .woff file."
+msgstr ""
+
+#: core/options-init.php:2335
+msgid "Secondary Custom Font"
+msgstr ""
+
+#: core/options-init.php:2342
+msgid "Secondary .ttf File"
+msgstr ""
+
+#: core/options-init.php:2343
+msgid "Upload secondary font .ttf file."
+msgstr ""
+
+#: core/options-init.php:2354
+msgid "Secondary .woff File"
+msgstr ""
+
+#: core/options-init.php:2355
+msgid "Upload secondary font .woff file."
+msgstr ""
+
+#: core/options-init.php:2372
+msgid "Custom Font Selector"
+msgstr ""
+
+#: core/options-init.php:2380
+msgid "Select custom font to be used for the body text."
+msgstr ""
+
+#: core/options-init.php:2391
+msgid "Headings Typography"
+msgstr ""
+
+#: core/options-init.php:2392
+msgid "Select custom font to be used for the headings text."
+msgstr ""
+
+#: core/options-init.php:2411
+msgid "Responsive Fonts"
+msgstr ""
+
+#: core/options-init.php:2412
+msgid ""
+"Overwrite the default typography ( font sizes and line heights ) on mobile & "
+"tablet"
+msgstr ""
+
+#: core/options-init.php:2418
+msgid "Resonsive Fonts Controls"
+msgstr ""
+
+#: core/options-init.php:2425
+msgid "Overwrite body typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2442
+msgid "Overwrite H1 typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2459
+msgid "Overwrite H2 typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2476
+msgid "Overwrite H3 typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2493
+msgid "Overwrite H4 typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2510
+msgid "Overwrite H5 typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2527
+msgid "Overwrite H6 typography on mobile & tablet "
+msgstr ""
+
+#: core/options-init.php:2548 core/theme-activation.php:59
+msgid "WooCommerce"
+msgstr ""
+
+#: core/options-init.php:2553
+msgid "Shop Page"
+msgstr ""
+
+#: core/options-init.php:2554
+msgid ""
+"Edit general setting for the main shop page. Select the product catalog "
+"style, products to show per page and number of product columns."
+msgstr ""
+
+#: core/options-init.php:2560
+msgid "Catalog Style"
+msgstr ""
+
+#: core/options-init.php:2561
+msgid "Select the product box template style"
+msgstr ""
+
+#: core/options-init.php:2572
+msgid "Products per Page"
+msgstr ""
+
+#: core/options-init.php:2573
+msgid "Change the products number listed per page."
+msgstr ""
+
+#: core/options-init.php:2579
+msgid "Shop Layout"
+msgstr ""
+
+#: core/options-init.php:2580
+msgid "Select the number of product columns"
+msgstr ""
+
+#: core/options-init.php:2593 core/options-init.php:2684
+msgid "Sidebar Position"
+msgstr ""
+
+#: core/options-init.php:2594 core/options-init.php:2685
+msgid "Select sidebar position"
+msgstr ""
+
+#: core/options-init.php:2605
+msgid "View cart text"
+msgstr ""
+
+#: core/options-init.php:2606
+msgid "Overwrite the \"View cart\" button text on mini cart widget."
+msgstr ""
+
+#: core/options-init.php:2612
+msgid "Checkout text"
+msgstr ""
+
+#: core/options-init.php:2613
+msgid "Overwrite the \"Checkout\" button text on mini cart widget."
+msgstr ""
+
+#: core/options-init.php:2619
+msgid "Empty cart text"
+msgstr ""
+
+#: core/options-init.php:2620
+msgid ""
+"Overwrite the \"Your cart is currently empty.\" text on mini cart widget."
+msgstr ""
+
+#: core/options-init.php:2629
+msgid "Product Page"
+msgstr ""
+
+#: core/options-init.php:2630
+msgid "Edit general settings for the single product page."
+msgstr ""
+
+#: core/options-init.php:2636 core/options-init.php:2890
+#: core/options-init.php:3742
+msgid "Transparent Header"
+msgstr ""
+
+#: core/options-init.php:2637
+msgid "Enable/Disable transparent header on single product pages."
+msgstr ""
+
+#: core/options-init.php:2643
+msgid "Product Title Bar"
+msgstr ""
+
+#: core/options-init.php:2644
+msgid "Enable/Disable title bar on single product pages."
+msgstr ""
+
+#: core/options-init.php:2652 core/options-init.php:2988
+msgid "Title Bar Text Alignment"
+msgstr ""
+
+#: core/options-init.php:2659 core/options-init.php:2995
+msgid "Select text alignment in the title bar area."
+msgstr ""
+
+#: core/options-init.php:2669
+msgid ""
+"Select the background color used for the single product pages title bar "
+"section."
+msgstr ""
+
+#: core/options-init.php:2675
+msgid "Product Sidebar"
+msgstr ""
+
+#: core/options-init.php:2676
+msgid "Enable/Disable sidebar on single product pages."
+msgstr ""
+
+#: core/options-init.php:2697
+msgid "Featured Image Position"
+msgstr ""
+
+#: core/options-init.php:2698
+msgid "Control the product image position."
+msgstr ""
+
+#: core/options-init.php:2709
+msgid "Gallery Template"
+msgstr ""
+
+#: core/options-init.php:2710
+msgid "Control the product image gallery layout."
+msgstr ""
+
+#: core/options-init.php:2721
+msgid "Number of Related Products"
+msgstr ""
+
+#: core/options-init.php:2722
+msgid ""
+"Controls the number of items that display under related products section."
+msgstr ""
+
+#: core/options-init.php:2729 core/options-init.php:3089
+msgid "Social Sharing Buttons"
+msgstr ""
+
+#: core/options-init.php:2730
+msgid "Enable/Disable the social sharing buttons on single product pages."
+msgstr ""
+
+#: core/options-init.php:2739
+msgid "Portfolio"
+msgstr ""
+
+#: core/options-init.php:2740
+msgid "Edit the single portfolio page settings"
+msgstr ""
+
+#: core/options-init.php:2751
+msgid "Enable Portfolio"
+msgstr ""
+
+#: core/options-init.php:2752
+msgid ""
+"Enable/Disable the portfolio custom post type. Refresh the page for changes "
+"to take effect."
+msgstr ""
+
+#: core/options-init.php:2758
+msgid "Portfolio Slug"
+msgstr ""
+
+#: core/options-init.php:2759
+msgid ""
+"Overwrite the portfolio base slug: domain.com/<strong>portfolio</strong>/"
+"portfolio-item-slug"
+msgstr ""
+
+#: core/options-init.php:2760
+msgid ""
+"<strong>Note:</strong> When you change this setting you need to <a "
+"href=\"https://www.vivatheme.com/documentation/knowledge-base/flush-rewrite-"
+"rules/\" target=\"_blank\">flush rewrite rules</a>."
+msgstr ""
+
+#: core/options-init.php:2772
+msgid "Portfolio Single Page Settings"
+msgstr ""
+
+#: core/options-init.php:2779 core/options-init.php:3114
+msgid "Previous/Next Pagination"
+msgstr ""
+
+#: core/options-init.php:2780
+msgid ""
+"Enable/Disable the previous/next portfolio pagination. Pagination section "
+"will be displayed below the content."
+msgstr ""
+
+#: core/options-init.php:2787
+msgid "Navigation \"Previous\" Link Text"
+msgstr ""
+
+#: core/options-init.php:2788
+msgid "Overwrite the \"Previous\" text on portfolio single page navigation."
+msgstr ""
+
+#: core/options-init.php:2799
+msgid "Navigation \"Next\" Link Text"
+msgstr ""
+
+#: core/options-init.php:2800
+msgid "Overwrite the \"Next\" text on portfolio single page navigation."
+msgstr ""
+
+#: core/options-init.php:2811
+msgid "Related Portfolio Items"
+msgstr ""
+
+#: core/options-init.php:2812
+msgid "Enable/Disable related portfolio items on single portfolio pages."
+msgstr ""
+
+#: core/options-init.php:2819
+msgid "Related Portfolio Section Title"
+msgstr ""
+
+#: core/options-init.php:2820
+msgid "Edit the related portfolios section title."
+msgstr ""
+
+#: core/options-init.php:2831
+msgid "Number of Related Portfolio Items"
+msgstr ""
+
+#: core/options-init.php:2832
+msgid "Select the number of related portfolio items."
+msgstr ""
+
+#: core/options-init.php:2844
+msgid "Related Portfolio Link Text"
+msgstr ""
+
+#: core/options-init.php:2845
+msgid ""
+"Edit the related portfolio items button text. Default is set to \"View "
+"project\"."
+msgstr ""
+
+#: core/options-init.php:2856
+msgid "Comments Section"
+msgstr ""
+
+#: core/options-init.php:2857
+msgid "Enable/Disable the comments section below the content."
+msgstr ""
+
+#: core/options-init.php:2872
+msgid "Blog"
+msgstr ""
+
+#: core/options-init.php:2877
+msgid "Blog Settings"
+msgstr ""
+
+#: core/options-init.php:2878
+msgid "Edit blog posts page & archive general settings"
+msgstr ""
+
+#: core/options-init.php:2891
+msgid "Enable/Disable transparent header on blog posts page."
+msgstr ""
+
+#: core/options-init.php:2897
+msgid "Header Template"
+msgstr ""
+
+#: core/options-init.php:2898
+msgid "Select the blog header template style."
+msgstr ""
+
+#: core/options-init.php:2909
+msgid "Revolution Slider Alias Name"
+msgstr ""
+
+#: core/options-init.php:2910
+msgid "Insert slider alias name."
+msgstr ""
+
+#: core/options-init.php:2917
+msgid "Articles Template"
+msgstr ""
+
+#: core/options-init.php:2918
+msgid "Select the blog articles template style."
+msgstr ""
+
+#: core/options-init.php:2932 core/options-init.php:3074
+#: core/options-init.php:3749
+msgid "Display Sidebar"
+msgstr ""
+
+#: core/options-init.php:2933
+msgid "Enable disable blog sidebar."
+msgstr ""
+
+#: core/options-init.php:2939 core/options-init.php:3081
+#: core/options-init.php:3756
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: core/options-init.php:2940
+msgid "Enable sticky sidebar for blog posts page."
+msgstr ""
+
+#: core/options-init.php:2947
+msgid "Post Excerpt Length"
+msgstr ""
+
+#: core/options-init.php:2948
+msgid "Edit articles excerpt length on blog page."
+msgstr ""
+
+#: core/options-init.php:2954
+msgid "Read More Text"
+msgstr ""
+
+#: core/options-init.php:2955
+msgid "Overwrite \"Read more\" text on blog articles."
+msgstr ""
+
+#: core/options-init.php:2956
+msgid ""
+"This option overwrites the Read More text with the assigned blog page in "
+"\"Settings > Reading\" and blog archives, not the blog element."
+msgstr ""
+
+#: core/options-init.php:2967
+msgid "Blog Header Title Bar"
+msgstr ""
+
+#: core/options-init.php:2974
+msgid "Blog Page Title"
+msgstr ""
+
+#: core/options-init.php:2975
+msgid "Enable/Disable the page title of the assigned blog page."
+msgstr ""
+
+#: core/options-init.php:2981
+msgid "Blog Page Subtitle"
+msgstr ""
+
+#: core/options-init.php:2982
+msgid ""
+"Add the subtitle text that displays in the page title bar of the assigned "
+"blog page."
+msgstr ""
+
+#: core/options-init.php:3004
+msgid ""
+"Use this colorpicker to override the title bar default background color."
+msgstr ""
+
+#: core/options-init.php:3013
+msgid "Use this colorpicker to override the title bar default text color."
+msgstr ""
+
+#: core/options-init.php:3019
+msgid "Blog Header Background Image Size"
+msgstr ""
+
+#: core/options-init.php:3020
+msgid ""
+"Controls the Blog Header image size. This option is used with the Blog "
+"Featured Image."
+msgstr ""
+
+#: core/options-init.php:3032
+msgid "Blog Header Background Image Position"
+msgstr ""
+
+#: core/options-init.php:3033
+msgid ""
+"Controls the Blog Header image position. This option is used with the Blog "
+"Featured Image."
+msgstr ""
+
+#: core/options-init.php:3055
+msgid "Single Post"
+msgstr ""
+
+#: core/options-init.php:3056
+msgid "Edit single blog posts general settings"
+msgstr ""
+
+#: core/options-init.php:3062
+msgid "Single Post Template"
+msgstr ""
+
+#: core/options-init.php:3063
+msgid "Select the single post template style."
+msgstr ""
+
+#: core/options-init.php:3075
+msgid "Enable/Disable the single post sidebar."
+msgstr ""
+
+#: core/options-init.php:3082
+msgid "Enable sticky sidebar for single blog posts."
+msgstr ""
+
+#: core/options-init.php:3090
+msgid "Select social sharing buttons visible on single post"
+msgstr ""
+
+#: core/options-init.php:3107
+msgid "Author Box"
+msgstr ""
+
+#: core/options-init.php:3108
+msgid "Enable/Disable author box below post content."
+msgstr ""
+
+#: core/options-init.php:3115
+msgid "Enable/Disable the previous/next post pagination for single posts."
+msgstr ""
+
+#: core/options-init.php:3121
+msgid "Navigation \"Previous\" Text"
+msgstr ""
+
+#: core/options-init.php:3122
+msgid "Overwrite the \"Previous\" text on single blog post navigation."
+msgstr ""
+
+#: core/options-init.php:3129
+msgid "Navigation \"Next\" Text"
+msgstr ""
+
+#: core/options-init.php:3130
+msgid "Overwrite the \"Next\" text on single blog post navigation."
+msgstr ""
+
+#: core/options-init.php:3137
+msgid "Related Posts"
+msgstr ""
+
+#: core/options-init.php:3138
+msgid "Enable/Disable related posts on single post pages."
+msgstr ""
+
+#: core/options-init.php:3144
+msgid "Related Posts Title"
+msgstr ""
+
+#: core/options-init.php:3151
+msgid "Number of Related Posts"
+msgstr ""
+
+#: core/options-init.php:3152
+msgid "Controls the number of posts that display under related posts section."
+msgstr ""
+
+#: core/options-init.php:3160 core/options-init.php:3166
+msgid "Reading Bar"
+msgstr ""
+
+#: core/options-init.php:3167
+msgid ""
+"Enable/Disable the reading progress bar. As you read the post or scroll the "
+"page, the progress bar is filled with color."
+msgstr ""
+
+#: core/options-init.php:3173
+msgid "Reading Bar Position"
+msgstr ""
+
+#: core/options-init.php:3174
+msgid "Select the reading bar position."
+msgstr ""
+
+#: core/options-init.php:3187
+msgid "Reading Bar Color"
+msgstr ""
+
+#: core/options-init.php:3189
+msgid "Select the background color to fill the progress bar."
+msgstr ""
+
+#: core/options-init.php:3196
+msgid "Reading Bar Height"
+msgstr ""
+
+#: core/options-init.php:3197
+msgid "Select the height of the progress reading bar."
+msgstr ""
+
+#: core/options-init.php:3212
+msgid "Blog Meta"
+msgstr ""
+
+#: core/options-init.php:3213
+msgid ""
+"The settings available with this page control the main blog page, single "
+"blog post page and blog archive pages. These settings do not overwrite the "
+"Post Grid or the Masonry Grid element settings."
+msgstr ""
+
+#: core/options-init.php:3219
+msgid "Post Meta"
+msgstr ""
+
+#: core/options-init.php:3220
+msgid ""
+"Enable/Disable the post meta on blog posts. You can also control individual "
+"meta settings below."
+msgstr ""
+
+#: core/options-init.php:3226
+msgid "Post Meta Date"
+msgstr ""
+
+#: core/options-init.php:3227
+msgid "Enable/Disable the post meta date."
+msgstr ""
+
+#: core/options-init.php:3233
+msgid "Post Meta Author"
+msgstr ""
+
+#: core/options-init.php:3234
+msgid "Enable/Disable the post meta author."
+msgstr ""
+
+#: core/options-init.php:3240
+msgid "Post Meta Categories"
+msgstr ""
+
+#: core/options-init.php:3241
+msgid "Enable/Disable the post meta categories."
+msgstr ""
+
+#: core/options-init.php:3247
+msgid "Post Meta Comments"
+msgstr ""
+
+#: core/options-init.php:3248
+msgid "Enable/Disable the post meta comments."
+msgstr ""
+
+#: core/options-init.php:3254
+msgid "Post Meta Tags"
+msgstr ""
+
+#: core/options-init.php:3255
+msgid "Enable/Disable the post meta tags."
+msgstr ""
+
+#: core/options-init.php:3263
+msgid "Subscribe Form"
+msgstr ""
+
+#: core/options-init.php:3264
+msgid ""
+"Display a subscribe section on blog listing and single post pages in the "
+"footer area."
+msgstr ""
+
+#: core/options-init.php:3270
+msgid "Subscribe Section"
+msgstr ""
+
+#: core/options-init.php:3271
+msgid "Enable/Disable the subscribe form section."
+msgstr ""
+
+#: core/options-init.php:3277
+msgid "Visibility"
+msgstr ""
+
+#: core/options-init.php:3278
+msgid "Select on which pages to show the subscribe form."
+msgstr ""
+
+#: core/options-init.php:3291
+msgid "Title"
+msgstr ""
+
+#: core/options-init.php:3292
+msgid "Add the title for the subscribe section."
+msgstr ""
+
+#: core/options-init.php:3299
+msgid "Subtitle"
+msgstr ""
+
+#: core/options-init.php:3300
+msgid "Add the subtitle for the subscribe section."
+msgstr ""
+
+#: core/options-init.php:3313 core/options-init.php:3622
+msgid "Text Color"
+msgstr ""
+
+#: core/options-init.php:3315
+msgid ""
+"Overwrite form text color. If none selected, the default theme color will be "
+"used."
+msgstr ""
+
+#: core/options-init.php:3324
+msgid "Subscribe Form Title"
+msgstr ""
+
+#: core/options-init.php:3325
+msgid "Select the Contact Form 7 to be used as a newsletter form."
+msgstr ""
+
+#: core/options-init.php:3335
+msgid "Upload background image."
+msgstr ""
+
+#: core/options-init.php:3343
+msgid "Backround Overlay Color"
+msgstr ""
+
+#: core/options-init.php:3344
+msgid "Select background overlay color."
+msgstr ""
+
+#: core/options-init.php:3354
+msgid "Fixed Background"
+msgstr ""
+
+#: core/options-init.php:3355
+msgid "If enabled the background image will stay fixed when scrolling."
+msgstr ""
+
+#: core/options-init.php:3364
+msgid "Elements"
+msgstr ""
+
+#: core/options-init.php:3370
+msgid "Elements general settings that are applied site-wide."
+msgstr ""
+
+#: core/options-init.php:3376
+msgid "Design Settings"
+msgstr ""
+
+#: core/options-init.php:3382
+msgid "Border Radius"
+msgstr ""
+
+#: core/options-init.php:3383
+msgid "Edit the border radius for all elements. Pixel value."
+msgstr ""
+
+#: core/options-init.php:3393
+msgid "Cards Border Radius"
+msgstr ""
+
+#: core/options-init.php:3394
+msgid "Edit the border radius for card elements. Pixel value."
+msgstr ""
+
+#: core/options-init.php:3411
+msgid "Button"
+msgstr ""
+
+#: core/options-init.php:3412
+msgid "Buttons general settings"
+msgstr ""
+
+#: core/options-init.php:3418
+msgid "Button Typography"
+msgstr ""
+
+#: core/options-init.php:3419
+msgid "Control the typography for all buttons."
+msgstr ""
+
+#: core/options-init.php:3436
+msgid "Button Border Width"
+msgstr ""
+
+#: core/options-init.php:3437
+msgid "Control the border width for buttons. Pixel value."
+msgstr ""
+
+#: core/options-init.php:3446
+msgid "Button Border Radius"
+msgstr ""
+
+#: core/options-init.php:3447
+msgid "Control the border radius for buttons. Pixel value."
+msgstr ""
+
+#: core/options-init.php:3458
+msgid "Button Box Padding"
+msgstr ""
+
+#: core/options-init.php:3459
+msgid "Controls the top/right/bottom/left padding of the button element."
+msgstr ""
+
+#: core/options-init.php:3465
+msgid "Button Hover Effect"
+msgstr ""
+
+#: core/options-init.php:3466
+msgid "Select the button hover effect."
+msgstr ""
+
+#: core/options-init.php:3480
+msgid "Contact Form"
+msgstr ""
+
+#: core/options-init.php:3481
+msgid "Forms general settings."
+msgstr ""
+
+#: core/options-init.php:3487
+msgid "Form Typography"
+msgstr ""
+
+#: core/options-init.php:3488
+msgid "Control the typography for form fields."
+msgstr ""
+
+#: core/options-init.php:3504
+msgid "Form Background Color"
+msgstr ""
+
+#: core/options-init.php:3505
+msgid "Controls the background color of form fields."
+msgstr ""
+
+#: core/options-init.php:3513
+msgid "Form Placeholder Text Color"
+msgstr ""
+
+#: core/options-init.php:3514
+msgid "Controls the placeholder text color of form fields."
+msgstr ""
+
+#: core/options-init.php:3523
+msgid "FAQ"
+msgstr ""
+
+#: core/options-init.php:3524
+msgid "FAQ general settings."
+msgstr ""
+
+#: core/options-init.php:3530
+msgid "Auto collapse"
+msgstr ""
+
+#: core/options-init.php:3531
+msgid ""
+"Auto collapse expanded FAQ when clicking another element of the same type. "
+"Only one item will remain expanded at any point."
+msgstr ""
+
+#: core/options-init.php:3539
+msgid "Section Title"
+msgstr ""
+
+#: core/options-init.php:3540
+msgid "Section Title general settings."
+msgstr ""
+
+#: core/options-init.php:3546
+msgid "Section Title Secondary Typography"
+msgstr ""
+
+#: core/options-init.php:3547
+msgid "Used with the highlighted word."
+msgstr ""
+
+#: core/options-init.php:3558
+msgid "Utility Pages"
+msgstr ""
+
+#: core/options-init.php:3563
+msgid "Maintenance Mode"
+msgstr ""
+
+#: core/options-init.php:3564
+msgid ""
+"Maintenance mode will be activated only for users that are not logged in."
+msgstr ""
+
+#: core/options-init.php:3570
+msgid "Enable Maintenance Mode"
+msgstr ""
+
+#: core/options-init.php:3571
+msgid "Enable/Disable maintenance mode."
+msgstr ""
+
+#: core/options-init.php:3577 core/options-init.php:3812
+#: core/options-init.php:3850
+msgid "Page Title"
+msgstr ""
+
+#: core/options-init.php:3578
+msgid "Edit maintenance page title "
+msgstr ""
+
+#: core/options-init.php:3585
+msgid "Page Content"
+msgstr ""
+
+#: core/options-init.php:3586
+msgid "Edit maintenance page content "
+msgstr ""
+
+#: core/options-init.php:3601
+msgid "Page Background Image"
+msgstr ""
+
+#: core/options-init.php:3602
+msgid "Upload page background image."
+msgstr ""
+
+#: core/options-init.php:3611
+msgid "Page Background Color"
+msgstr ""
+
+#: core/options-init.php:3612
+msgid "Overwrite the page background color."
+msgstr ""
+
+#: core/options-init.php:3623
+msgid ""
+"Overwrite text color. If none selected, the default theme color will be used."
+msgstr ""
+
+#: core/options-init.php:3632
+msgid "Enable Countdown"
+msgstr ""
+
+#: core/options-init.php:3633
+msgid "Enable/Disable the countdown timer."
+msgstr ""
+
+#: core/options-init.php:3640
+msgid "End Day"
+msgstr ""
+
+#: core/options-init.php:3641
+msgid "Enter day value. Eg. 05"
+msgstr ""
+
+#: core/options-init.php:3648
+msgid "End Month"
+msgstr ""
+
+#: core/options-init.php:3649
+msgid "Enter month value. Eg. 09"
+msgstr ""
+
+#: core/options-init.php:3656
+msgid "End Year"
+msgstr ""
+
+#: core/options-init.php:3657
+msgid "Enter year value. Eg. 2020"
+msgstr ""
+
+#: core/options-init.php:3664
+msgid "Enable Contact Form"
+msgstr ""
+
+#: core/options-init.php:3665
+msgid "Enable/Disable contact form on page."
+msgstr ""
+
+#: core/options-init.php:3729
+msgid "Search Page"
+msgstr ""
+
+#: core/options-init.php:3730
+msgid "Seach page general settings"
+msgstr ""
+
+#: core/options-init.php:3736
+msgid "Search Page General Settings"
+msgstr ""
+
+#: core/options-init.php:3743
+msgid "Enable/Disable transparent header on search page"
+msgstr ""
+
+#: core/options-init.php:3750
+msgid "Enable/Disable the page sidebar."
+msgstr ""
+
+#: core/options-init.php:3757
+msgid "Enable/Disalbe sticky sidebar functionality."
+msgstr ""
+
+#: core/options-init.php:3764
+msgid "Page title"
+msgstr ""
+
+#: core/options-init.php:3765
+msgid "Overwrite the \"Search results for\" page title."
+msgstr ""
+
+#: core/options-init.php:3776
+msgid "Search Form Settings"
+msgstr ""
+
+#: core/options-init.php:3782
+msgid "Search results content"
+msgstr ""
+
+#: core/options-init.php:3783
+msgid "Select the type of content to be displayed in search results."
+msgstr ""
+
+#: core/options-init.php:3784
+msgid ""
+"Settings used for the form displayed in Topbar or Main Menu header area."
+msgstr ""
+
+#: core/options-init.php:3805
+msgid "404 Page"
+msgstr ""
+
+#: core/options-init.php:3806
+msgid "404 page general settings"
+msgstr ""
+
+#: core/options-init.php:3813
+msgid "Set the 404 page title."
+msgstr ""
+
+#: core/options-init.php:3819 core/options-init.php:3857
+msgid "Page Subtitle"
+msgstr ""
+
+#: core/options-init.php:3820
+msgid "Set the 404 page subtitle."
+msgstr ""
+
+#: core/options-init.php:3826
+msgid "Back to Homepage Button Text"
+msgstr ""
+
+#: core/options-init.php:3827
+msgid "Set the 404 back to homepage button text."
+msgstr ""
+
+#: core/options-init.php:3835
+msgid "404 Image"
+msgstr ""
+
+#: core/options-init.php:3836
+msgid "Upload custom image."
+msgstr ""
+
+#: core/options-init.php:3843
+msgid "Password Page"
+msgstr ""
+
+#: core/options-init.php:3844
+msgid "Post password page general settings"
+msgstr ""
+
+#: core/options-init.php:3851
+msgid "Overwrite the password page title."
+msgstr ""
+
+#: core/options-init.php:3858
+msgid "Overwrite the password page subtitle."
+msgstr ""
+
+#: core/options-init.php:3866
+msgid "Performance"
+msgstr ""
+
+#: core/options-init.php:3871
+msgid "Viva Blocks"
+msgstr ""
+
+#: core/options-init.php:3872
+msgid "Enable/Disable preloading of Viva Blocks."
+msgstr ""
+
+#: core/options-init.php:3880
+msgid "Custom CSS/JS"
+msgstr ""
+
+#: core/options-init.php:3885
+msgid "CSS"
+msgstr ""
+
+#: core/options-init.php:3886
+msgid ""
+"Enter the custom CSS code in the side field. Do not include any tags or HTML "
+"in the field. Custom CSS added here will overwrite the theme CSS."
+msgstr ""
+
+#: core/options-init.php:3893
+msgid "Javascript"
+msgstr ""
+
+#: core/options-init.php:3894
+msgid "Enter the custom JavaScript code in the side field."
+msgstr ""
+
+#: core/templates/header/content-title-bar.php:231
+msgid "Search results for:"
+msgstr ""
+
+#: core/templates/header/content-title-bar.php:233
+#: core/templates/header/content-title-bar.php:264
+msgid "Currently browsing:"
+msgstr ""
+
+#: core/templates/header/content-title-bar.php:235
+msgid "All posts tagged:"
+msgstr ""
+
+#: core/templates/header/content-title-bar.php:237
+msgid "All posts by"
+msgstr ""
+
+#: core/templates/header/content-title-bar.php:239
+#: core/templates/header/content-title-bar.php:241
+#: core/templates/header/content-title-bar.php:243
+msgid "Posts archive for"
+msgstr ""
+
+#: core/templates/page/content-page.php:23
+msgid "Pages:"
+msgstr ""
+
+#: core/templates/portfolio/content-project-nav.php:11
+#: core/templates/post/partials/content-navigation.php:8
+msgid "Previous"
+msgstr ""
+
+#: core/templates/portfolio/content-project-nav.php:18
+#: core/templates/post/partials/content-navigation.php:9
+msgid "Next"
+msgstr ""
+
+#: core/templates/portfolio/project-minimal-grid.php:45
+msgid "View project"
+msgstr ""
+
+#: core/templates/post/blog-detailed-grid.php:43
+#: core/templates/post/blog-img-top-list.php:26
+#: core/templates/post/blog-img-top-list.php:27
+#: core/templates/post/blog-minimal-grid.php:38
+#: core/templates/post/content-search.php:19
+#: core/templates/post/content-search.php:20
+msgid "Read more"
+msgstr ""
+
+#: core/templates/post/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: core/templates/post/content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: core/templates/post/content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again using "
+"different keywords."
+msgstr ""
+
+#: core/templates/post/content-none.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: core/templates/post/partials/content-author.php:22
+msgid "Author:"
+msgstr ""
+
+#: core/templates/post/partials/content-author.php:26
+msgid "Website:"
+msgstr ""
+
+#: core/templates/post/partials/content-meta.php:26
+msgid "Last updated on "
+msgstr ""
+
+#: core/templates/post/partials/content-meta.php:37
+msgid "Sticky"
+msgstr ""
+
+#: core/templates/post/partials/content-meta.php:63
+msgid "No comments yet"
+msgstr ""
+
+#: core/templates/post/partials/content-meta.php:63
+msgid "1 comment"
+msgstr ""
+
+#: core/templates/post/partials/content-meta.php:63
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: core/theme-activation.php:14
+msgid "Redux Framework"
+msgstr ""
+
+#: core/theme-activation.php:20
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: core/theme-activation.php:30
+msgid "Viva Addon"
+msgstr ""
+
+#: core/theme-activation.php:40
+msgid "Slider Revolution"
+msgstr ""
+
+#: core/theme-activation.php:50
+msgid "Envato Market"
+msgstr ""
+
+#: core/theme-activation.php:64
+msgid "Contact Form 7"
+msgstr ""
+
+#: core/theme-activation.php:69
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: core/theme-activation.php:85
+msgid "Plugins"
+msgstr ""
+
+#: core/theme-activation.php:90
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+
+#: core/theme-activation.php:93
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+
+#: core/theme-activation.php:95
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+
+#: core/theme-activation.php:97
+msgid "Activate installed plugin"
+msgstr ""
+
+#: core/theme-activation.php:100
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: core/theme-sidebars.php:10
+msgid "Blog Sidebar"
+msgstr ""
+
+#: core/theme-sidebars.php:13
+msgid ""
+"Add widgets for the blog sidebar area. If none added, default sidebar "
+"widgets will be used."
+msgstr ""
+
+#: core/theme-sidebars.php:23
+msgid "Shop Sidebar"
+msgstr ""
+
+#: core/theme-sidebars.php:26
+msgid "A sidebar that only appears on WooCommerce Shop pages."
+msgstr ""
+
+#: core/theme-sidebars.php:37
+msgid "bbPress Sidebar"
+msgstr ""
+
+#: core/theme-sidebars.php:40
+msgid "A sidebar that only appears on bbPress pages."
+msgstr ""
+
+#: core/theme-sidebars.php:51
+msgid "Page Sidebar"
+msgstr ""
+
+#: core/theme-sidebars.php:54
+msgid "Add widgets for the single page sidebar area."
+msgstr ""
+
+#: core/theme-sidebars.php:64
+msgid "Footer first widget area"
+msgstr ""
+
+#: core/theme-sidebars.php:67
+msgid "Add widgets for the first footer widget area."
+msgstr ""
+
+#: core/theme-sidebars.php:77
+msgid "Footer second widget area"
+msgstr ""
+
+#: core/theme-sidebars.php:80
+msgid "Add widgets for the second footer widget area."
+msgstr ""
+
+#: core/theme-sidebars.php:90
+msgid "Footer third widget area"
+msgstr ""
+
+#: core/theme-sidebars.php:93
+msgid "Add widgets for the third footer widget area."
+msgstr ""
+
+#: core/theme-sidebars.php:103
+msgid "Footer fourth widget area"
+msgstr ""
+
+#: core/theme-sidebars.php:106
+msgid "Add widgets for the fourth footer widget area."
+msgstr ""
+
+#: core/theme-sidebars.php:116
+msgid "Footer fifth widget area"
+msgstr ""
+
+#: core/theme-sidebars.php:119
+msgid "Add widgets for the fifth footer widget area."
+msgstr ""
+
+#: core/theme-sidebars.php:129
+msgid "Footer sixth widget area"
+msgstr ""
+
+#: core/theme-sidebars.php:132
+msgid "Add widgets for the sixth footer widget area."
+msgstr ""
+
+#: core/theme-woocommerce.php:178
+msgid "Sale"
+msgstr ""
+
+#: core/theme-woocommerce.php:338
+msgid "Subtotal:"
+msgstr ""
+
+#: core/theme-woocommerce.php:340
+msgid "View cart"
+msgstr ""
+
+#: core/theme-woocommerce.php:341
+msgid "Checkout"
+msgstr ""
+
+#: core/theme-woocommerce.php:344 core/theme-woocommerce.php:382
+msgid "Your cart is currently empty."
+msgstr ""
