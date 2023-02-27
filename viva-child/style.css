@@ -9,3 +9,12 @@ Version: 1.0
 Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-menu, featured-images, flexible-header, post-formats, sticky-post, translation-ready
 
 /* Below you can write your style */
+
+.wellcome-subtitle > h6 {
+  font-weight: 600 !important;
+}
+
+/* Make Journey to Partnership section non clickable */
+.make-non-clickable > div > a {
+  cursor: default;
+}
