@@ -9,3 +9,22 @@ Version: 1.0
 Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-menu, featured-images, flexible-header, post-formats, sticky-post, translation-ready
 
 /* Below you can write your style */
+
+/* Fix the background elements positions when opening the modal */
+body.modal-open {
+  overflow: scroll;
+  padding-right: 0px !important;
+}
+
+/* Modal image size */
+.modal-view > .modal-content > div > .modal-content-inner {
+  padding: 232px !important;
+}
+/* Modal social media icons */
+.modal-view > div > div > div > div > ul > li > a {
+  line-height: 36px !important;
+}
+
+.modal-view > div > div > div > div > ul {
+  margin-top: 25px !important;
+}
