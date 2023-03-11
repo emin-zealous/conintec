@@ -9,3 +9,7 @@ Version: 1.0
 Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-menu, featured-images, flexible-header, post-formats, sticky-post, translation-ready
 
 /* Below you can write your style */
+
+#welcome-section {
+  height: 1049px;
+}
