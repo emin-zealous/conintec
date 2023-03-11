@@ -9,3 +9,12 @@ Version: 1.0
 Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-menu, featured-images, flexible-header, post-formats, sticky-post, translation-ready
 
 /* Below you can write your style */
+
+/* Make images in Nearshore Services section brighter on hover */
+.lighter-color > .photobox-img:hover {
+  filter: brightness(1.3);
+}
+
+.lighter-color > .photobox-img:hover > img {
+  opacity: 1 !important;
+}
