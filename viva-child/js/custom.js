@@ -2,7 +2,7 @@
   $(document).ready(function () {
     ("use strict");
 
-    // fix bugs related to Linkedin icon
+    // Fix bugs related to Linkedin icon
     $(".fa-linkedin-square")
       .removeClass("fa-linkedin-square")
       .addClass("fa-linkedin-in");
