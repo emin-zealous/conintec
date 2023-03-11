@@ -28,3 +28,13 @@ body.modal-open {
 .modal-view > div > div > div > div > ul {
   margin-top: 25px !important;
 }
+
+@media (max-width:400px) {
+    .modal-content-inner {
+        display:none;
+    }
+}
+
+.modal-content-inner::after {
+    background-color: transparent;
+}
