@@ -9,3 +9,8 @@ Version: 1.0
 Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-menu, featured-images, flexible-header, post-formats, sticky-post, translation-ready
 
 /* Below you can write your style */
+
+/* Font family for local icons */
+.fa-light, .fa-solid {
+  font-family: "Font Awesome 6 Pro" !important;
+}
