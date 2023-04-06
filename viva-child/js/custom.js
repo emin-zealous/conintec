@@ -2,10 +2,18 @@
   $(document).ready(function () {
     ("use strict");
 
-    // Make Polylang menu icon non clickable
-    $(".pll-parent-menu-item > a").click(function () {
-      return false;
-    });
+    /* Add About Us section icons */
+    $(".fa-chalkboard-teacher")
+      .removeClass("fas fa-chalkboard-teacher")
+      .addClass("fa-solid fa-person-chalkboard");
 
+    /* Add Journey to Partnership section icons */
+    $(".fa-puzzle-piece")
+      .removeClass("fas fa-puzzle-piece")
+      .addClass("fa-light fa-puzzle");
+
+    $(".fa-handshake")
+      .removeClass("far fa-handshake")
+      .addClass("fa-light fa-hands-holding-diamond");
   });
 })(jQuery);
