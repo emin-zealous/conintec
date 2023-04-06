@@ -29,12 +29,13 @@
                   $(matchNode)
                     .find(".styled-letters")
                     .each(function () {
-                      // console.log(999999,  $(this).html().css('color'));
-                      $(this)
-                        .parent()
-                        .css({ "font-weight": "bold", color: "#000000" }),
+                      $(this).parent().css({
+                        "font-weight": "bold",
+                        color: "#000000",
+                        "font-family": "arial",
+                      }),
                         $(this)
-                          .css({ color: "#567CD8", "font-size": "13px" })
+                          .css({ color: "#567CD8", "font-size": "68%" })
                           .removeClass("styled-letters");
                     });
                 }
