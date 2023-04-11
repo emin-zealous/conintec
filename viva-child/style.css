@@ -10,6 +10,10 @@ Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-
 
 /* Below you can write your style */
 
+.overline-line:before {
+  background: #ffc000 !important;
+}
+
 .wellcome-subtitle > h6 {
   font-weight: 600 !important;
 }
