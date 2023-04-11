@@ -14,3 +14,57 @@ Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-
 .fa-light, .fa-solid {
   font-family: "Font Awesome 6 Pro" !important;
 }
+/* Fix the background elements positions when opening the modal */
+body.modal-open {
+  overflow: scroll;
+  padding-right: 0px !important;
+}
+
+/* Modal image size */
+.modal-view > .modal-content > div > .modal-content-inner {
+  padding: 232px !important;
+}
+/* Modal social media icons */
+.modal-view > div > div > div > div > ul > li > a {
+  line-height: 36px !important;
+}
+
+.modal-view > div > div > div > div > ul {
+  margin-top: 25px !important;
+}
+
+@media (max-width:400px) {
+    .modal-content-inner {
+        display:none;
+    }
+}
+
+.modal-content-inner::after {
+    background-color: transparent;
+}
+
+#sticky-style > .fm-icon {
+    border: 1px solid #617798 !important;
+}
+
+#sticky-style > .fm-icon:hover {
+    border: 1px solid rgb(86,124,216) !important;
+}
+
+#sticky-style > .fm-label {
+    border: 1px solid #617798 !important;
+    right: 55px !important;
+}
+
+.overline-line:before {
+  background: #ffc000 !important;
+}
+
+.wellcome-subtitle > h6 {
+  font-weight: 600 !important;
+}
+
+/* Make Journey to Partnership section non clickable */
+.make-non-clickable > div > a {
+  cursor: default;
+}
