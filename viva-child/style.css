@@ -23,3 +23,15 @@ Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-
     right: 55px !important;
 }
 
+.overline-line:before {
+  background: #ffc000 !important;
+}
+
+.wellcome-subtitle > h6 {
+  font-weight: 600 !important;
+}
+
+/* Make Journey to Partnership section non clickable */
+.make-non-clickable > div > a {
+  cursor: default;
+}
