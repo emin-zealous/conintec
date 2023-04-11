@@ -10,6 +10,19 @@ Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-
 
 /* Below you can write your style */
 
+#sticky-style > .fm-icon {
+    border: 1px solid #617798 !important;
+}
+
+#sticky-style > .fm-icon:hover {
+    border: 1px solid rgb(86,124,216) !important;
+}
+
+#sticky-style > .fm-label {
+    border: 1px solid #617798 !important;
+    right: 55px !important;
+}
+
 .overline-line:before {
   background: #ffc000 !important;
 }
