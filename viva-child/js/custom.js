@@ -2,7 +2,16 @@
   $(document).ready(function () {
     "use strict";
 
-    // FLOATING MENU
+    // Floating menu issue on screen resize
+    jQuery(window).on("resize", function () {
+      jQuery(".fm-list").each(function () {
+        var tabs_nr = jQuery(this).children(".fm-item").length;
+        var tabs_width = jQuery(this).width();
+        jQuery(".fm-list .nav-indicator").css("width", tabs_width / tabs_nr);
+      });
+    });
+
+    // Navigate to a page section with animation
     var target = location.hash;
     var navbar_height = 0;
     var adminbar_offset = 0;
@@ -30,6 +39,7 @@
       }, 250);
     }
 
+    // Use animation when switching between sections on the same page using the main menu
     $(
       "#menu-conintec > li > a[href*=\\#], #menu-conintec > li > ul > li > a[href*=\\#], #menu-conintec > li > ul > li > ul > li > a[href*=\\#], #menu-conintec_de > li > a[href*=\\#], #menu-conintec_de > li > ul > li > a[href*=\\#], #menu-conintec_de > li > ul > li > ul > li > a[href*=\\#]"
     ).bind("click", function (e) {
