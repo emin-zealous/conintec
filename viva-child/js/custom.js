@@ -23,7 +23,6 @@
     );
     $linkedinImg.insertBefore($linkedinIcon);
     $linkedinIcon.remove();
-
     var $xingIcon = $(".fa-xing");
     var $linkedinImg = $(
       '<img width="34px" height="34px" src="/wp-content/uploads/2023/03/xing-icon.svg" class="header-logo" alt="Xing" title="Xing">'
