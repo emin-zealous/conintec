@@ -2,7 +2,6 @@
   $(document).ready(function () {
     ("use strict");
 
-<<<<<<< Updated upstream
     /* Add About Us section icons */
     $(".fa-chalkboard-teacher")
       .removeClass("fas fa-chalkboard-teacher")
@@ -16,7 +15,7 @@
     $(".fa-handshake")
       .removeClass("far fa-handshake")
       .addClass("fa-light fa-hands-holding-diamond");
-=======
+
     // Update social media icons
     var $linkedinIcon = $(".fa-linkedin");
     var $linkedinImg = $(
@@ -38,6 +37,5 @@
     );
     $linkedinImg.insertBefore($youtubeIcon);
     $youtubeIcon.remove();
->>>>>>> Stashed changes
   });
 })(jQuery);
