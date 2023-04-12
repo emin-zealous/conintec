@@ -10,6 +10,31 @@ Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-
 
 /* Below you can write your style */
 
+/* Use fonts from local */
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins/Poppins-Regular.woff"),
+    url("./fonts/poppins/Poppins-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./fonts/playfair_display/PlayfairDisplay-Regular.woff"),
+    url("./fonts/playfair_display/PlayfairDisplay-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font family for local icons */
+.fa-light,
+.fa-solid {
+  font-family: "Font Awesome 6 Pro" !important;
+}
+
 .wellcome-subtitle > h6 {
   font-weight: 600 !important;
   margin-bottom: 0 !important;
@@ -353,31 +378,6 @@ div.topbar-left-content > div > ul > li > a > img {
   }
 }
 
-/* Font family for local icons */
-.fa-light,
-.fa-solid {
-  font-family: "Font Awesome 6 Pro" !important;
-}
-
-/* Use fonts from local */
-@font-face {
-  font-family: "Poppins";
-  src: url("./fonts/poppins/Poppins-Regular.woff"),
-    url("./fonts/poppins/Poppins-Regular.woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Playfair Display";
-  src: url("./fonts/playfair_display/PlayfairDisplay-Regular.woff"),
-    url("./fonts/playfair_display/PlayfairDisplay-Regular.woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 .entry-header {
   background-color: #fff;
   padding-bottom: 0px;
@@ -434,6 +434,7 @@ div.header-overlay.parallax-overlay {
   }
 }
 
+/* Search result pages button */
 .search-button-text:after {
   content: "\e93a";
   display: inline-flex;
