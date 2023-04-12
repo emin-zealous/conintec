@@ -10,10 +10,41 @@ Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-
 
 /* Below you can write your style */
 
+/* Use fonts from local */
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins/Poppins-Regular.woff"),
+    url("./fonts/poppins/Poppins-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./fonts/playfair_display/PlayfairDisplay-Regular.woff"),
+    url("./fonts/playfair_display/PlayfairDisplay-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Font family for local icons */
-.fa-light, .fa-solid {
+.fa-light,
+.fa-solid {
   font-family: "Font Awesome 6 Pro" !important;
 }
+
+.wellcome-subtitle > h6 {
+  font-weight: 600 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Make Journey to Partnership section non clickable */
+.make-non-clickable > div > a {
+  cursor: default;
+}
+
 /* Fix the background elements positions when opening the modal */
 body.modal-open {
   overflow: scroll;
@@ -23,48 +54,400 @@ body.modal-open {
 /* Modal image size */
 .modal-view > .modal-content > div > .modal-content-inner {
   padding: 232px !important;
+  background-position: center;
 }
+
 /* Modal social media icons */
 .modal-view > div > div > div > div > ul > li > a {
-  line-height: 36px !important;
+  line-height: 30px !important;
+}
+
+.modal-content-contact .redux-social-media-list a {
+  width: 50px;
+  height: 50px;
+}
+
+.modal-content-contact .redux-social-media-list a:hover {
+  background-color: initial !important;
+}
+
+.modal-content-contact .redux-social-media-list a > img {
+  max-width: 65%;
+  margin-top: 7px;
+}
+
+.modal-content-contact .redux-social-media-list a > .youtube-logo {
+  margin-top: 13px !important;
 }
 
 .modal-view > div > div > div > div > ul {
   margin-top: 25px !important;
 }
 
-@media (max-width:400px) {
-    .modal-content-inner {
-        display:none;
-    }
+/* Make Nearshore Services image brighter on hover */
+.lighter-color > .photobox-img:hover {
+  filter: brightness(1.3);
 }
 
-.modal-content-inner::after {
-    background-color: transparent;
-}
-
-#sticky-style > .fm-icon {
-    border: 1px solid #617798 !important;
-}
-
-#sticky-style > .fm-icon:hover {
-    border: 1px solid rgb(86,124,216) !important;
-}
-
-#sticky-style > .fm-label {
-    border: 1px solid #617798 !important;
-    right: 55px !important;
+.lighter-color > .photobox-img:hover > img {
+  opacity: 1 !important;
 }
 
 .overline-line:before {
   background: #ffc000 !important;
 }
 
-.wellcome-subtitle > h6 {
-  font-weight: 600 !important;
+@media (max-width: 400px) {
+  .modal-view > .modal-content > div > .modal-content-inner {
+    display: none;
+  }
 }
 
-/* Make Journey to Partnership section non clickable */
-.make-non-clickable > div > a {
-  cursor: default;
+.modal-content-inner::after {
+  background-color: transparent;
+}
+
+#sticky-style > .fm-icon {
+  border: 1px solid #617798 !important;
+}
+
+#sticky-style > .fm-icon:hover {
+  border: 1px solid rgb(86, 124, 216) !important;
+}
+
+#sticky-style > .fm-label {
+  border: 1px solid #617798 !important;
+  right: 55px !important;
+}
+
+/* Make submenu clickable */
+.menubar
+  #main-menu
+  .navbar-nav
+  .mega-menu.menu-item-has-children
+  .dropdown
+  > a {
+  pointer-events: all;
+}
+
+@media (min-width: 1270px) {
+  #welcome-section {
+    height: 1049px;
+  }
+}
+
+#welcome-section {
+  background-position: right center !important;
+}
+
+#main-menu .navbar-nav .mega-menu > .dropdown-menu:before {
+  left: auto;
+  width: 100%;
+}
+
+#main-menu .navbar-nav .menu-item-has-children:hover .dropdown-menu {
+  opacity: 0.9;
+}
+
+.menubar {
+  border-bottom: 1px solid var(--border-color);
+}
+
+@media (max-width: 1366px) {
+  .photobox-carousel .owl-nav {
+    position: absolute !important;
+    margin-left: 6px !important;
+    opacity: 0.5;
+  }
+
+  /* Make arrows in Nearshore services bolder */
+  .owl-nav div.owl-next:before,
+  .owl-nav div.owl-prev:before {
+    font-weight: 700;
+  }
+}
+
+.first-image > div > a > .timeline-item-date > img,
+.second-image > div > a > .timeline-item-date > img,
+.thirdth-image > div > a > .timeline-item-date > img,
+.fourth-image > div > a > .timeline-item-date > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.first-image > div > a > .timeline-content > .timeline-item-title,
+.first-image > div > a > .timeline-item-date > .item-date,
+.second-image > div > a > .timeline-content > .timeline-item-title,
+.second-image > div > a > .timeline-item-date > .item-date,
+.thirdth-image > div > a > .timeline-content > .timeline-item-title,
+.thirdth-image > div > a > .timeline-item-date > .item-date,
+.fourth-image > div > a > .timeline-content > .timeline-item-title,
+.fourth-image > div > a > .timeline-item-date > .item-date {
+  width: 65% !important;
+  display: block;
+}
+
+.hot-badge {
+  display: inline-flex;
+  padding: 0 10px;
+  border-radius: 50em;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.16px;
+  line-height: 21px;
+  background-color: #ffc000;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.new-badge {
+  display: inline-flex;
+  padding: 0 10px;
+  border-radius: 50em;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.16px;
+  line-height: 21px;
+  background-color: #0066ff1f;
+  color: #0066ff;
+  text-transform: uppercase;
+}
+
+#about-us-text {
+  margin-top: 20px;
+}
+
+/* Dropdown menu length*/
+#main-menu .navbar-nav .dropdown-menu {
+  min-width: 280px;
+}
+
+#single-page p {
+  margin-bottom: 10px;
+}
+
+/* Make visible About Us sections Learn more buttons */
+.cb-container .cb-wrapper .cb-simple-link .cb-link-text {
+  display: initial !important;
+  opacity: 1 !important;
+}
+
+.header-logo {
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  #workflow > div > div > div > div {
+    display: flex !important;
+    flex-direction: column-reverse;
+  }
+
+  .about-us-content {
+    margin-top: 30px;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .image-space {
+    margin: 15px 0px !important;
+    padding-right: 100px;
+    display: flex;
+  }
+
+  .alignleft,
+  .alignright {
+    float: initial;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hide-divider > div {
+    display: none !important;
+  }
+
+  #main-menu .navbar-nav .mega-menu .dropdown-menu {
+    left: 260px;
+    width: 728px;
+  }
+
+  @media (max-width: 1270px) {
+    .about-us-image > .second-image-wrapper > div > img {
+      height: 190px !important;
+      width: auto;
+    }
+
+    .about-us-image > .first-image-wrapper > div > img {
+      height: 364px !important;
+      width: auto;
+    }
+
+    .about-us-image > .second-image-wrapper > div > img {
+      margin-left: 0;
+    }
+
+    .wpb_column.vc_column_container.vc_col-sm-6.vc_col-lg-6.vc_col-md-12.vc_col-xs-11 {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  /* Add border for floating menu */
+  .fm-wrapper.visible {
+    border: 1px solid var(--border-color);
+    border-color: #ffffff;
+  }
+  @media (max-width: 992px) {
+    #single-page > div > div > section > div:nth-child(1) {
+      padding-top: 150px !important;
+    }
+
+    #welcome-image {
+      padding-top: 200px !important;
+    }
+  }
+}
+
+.fm-icon > img {
+  max-width: 75%;
+}
+
+/* Video play button color */
+.play-btn-gray-color .play-video {
+  border-color: #ffc00080 !important;
+}
+
+.play-video:hover .viva-play {
+  color: var(--main-color) !important;
+}
+
+.back-to-top {
+  background-color: #0066ff1f !important;
+  border-radius: 50% !important;
+}
+
+/* Make background blue even after clicking on mobile view*/
+@media (hover: hover) {
+  .back-to-top:hover {
+    background-color: #0066ff00 !important;
+  }
+}
+
+/* Style language switcher flag in top menu */
+.topbar-email > li {
+  list-style-type: none !important;
+}
+
+.navbar > li {
+  display: none;
+}
+
+/* Logo dementions in toolbar */
+div.topbar-left-content > div > ul > li > a > img {
+  max-width: 100%;
+  height: auto;
+  max-height: 50px;
+}
+
+.lower-footer .container {
+  border: none;
+}
+
+.fm-wrapper.visible {
+  transform: translate(-50%, -10%) !important;
+}
+
+/*Video section possition on tablet*/
+@media (max-width: 995px) {
+  #video-section > div > div > div > div > div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+  /* Page title font size for mobile */
+  .custom-header > div > h1 {
+    font-size: 28px;
+  }
+
+  /* Hide flotting menu on small screen sizes */
+  .fm-nav {
+    display: none;
+  }
+}
+
+.entry-header {
+  background-color: #fff;
+  padding-bottom: 0px;
+}
+
+.entry-header > div > div {
+  display: flex !important;
+  flex-direction: column-reverse;
+}
+
+.entry-header > div > div > div {
+  margin: 0 0 10px 0;
+  margin-left: initial !important;
+  margin-right: initial !important;
+  text-align: start !important;
+}
+
+.blog-title-center {
+  text-align: start;
+}
+
+#posts-content {
+  padding-top: 0px;
+}
+
+ol > li:before {
+  color: var(--text-color) !important;
+}
+
+/* Button in search page */
+.search-button-text:hover:after {
+  transform: translate3D(10px, 3px, 0);
+}
+
+/* Hides partfolio image from search page */
+div.header-overlay.parallax-overlay {
+  background-image: none !important;
+}
+
+.wpb_text_column ul li {
+  line-height: 30px !important;
+}
+
+@media (min-width: 768px) {
+  .about-us-image > .second-image-wrapper > div > img {
+    margin-left: 300px;
+  }
+
+  @media (max-width: 769px) {
+    .cmplz-message,
+    .cmplz-categories {
+      width: auto !important;
+    }
+  }
+}
+
+/* Search result pages button */
+.search-button-text:after {
+  content: "\e93a";
+  display: inline-flex;
+  font-family: "viva-font" !important;
+  line-height: 22px;
+  font-size: 18px;
+  transform: translate3D(0, 3px, 0);
+  margin: 0;
+  -webkit-transition: transform var(--fast-animation);
+  transition: transform var(--fast-animation);
+}
+
+.search-button-text,
+.search-button-text:hover {
+  color: #ffc000 !important;
 }
