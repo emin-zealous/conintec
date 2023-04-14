@@ -2,9 +2,10 @@
   $(document).ready(function () {
     ("use strict");
 
-    // Make Polylang menu icon non clickable
-    $(".pll-parent-menu-item > a").click(function () {
-      return false;
+    // Make images clickable
+    $('.nearshore-services a').each(function() {
+      var link = $(this).attr('href');
+      $(this).parent().parent().find('img').wrap('<a href="' + link + '"></a>');
     });
 
   });
