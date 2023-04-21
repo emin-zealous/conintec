@@ -69,10 +69,6 @@ $.extend($.expr[':'], {
     // ------------------------------------------------------------------------
     // Center Logo
     // ------------------------------------------------------------------------
-    // if ($('.navbar.logo-center').length > 0) {
-    // 	var MenuHeight = $('.navbar.logo-center').height();
-    //     $(".entry-header").css("padding-top", MenuHeight+100);
-    // }
     var magic_mouse_options = '';
 
     if (document.body.classList.contains('cursor-circle-point')) {
@@ -682,55 +678,6 @@ var openPhotoSwipe = function(element, disableAnimation) {
     }
 
 })(window);
-// ------------------------------------------------------------------------
-// Animated Header
-// ------------------------------------------------------------------------
-
-// var cbpAnimatedHeader = (function() {
-//     var docElem = document.documentElement,
-//         header = document.querySelector('.navbar-default'),
-//         didScroll = false,
-//         changeHeaderOn = 50;
-
-//     function init() {
-//         window.addEventListener('scroll', function(event) {
-//             if (!didScroll) {
-//                 didScroll = true;
-//                 setTimeout(scrollPage, 100);
-//             }
-//         }, false);
-//         window.addEventListener('load', function(event) {
-//             if (!didScroll) {
-//                 didScroll = true;
-//                 setTimeout(scrollPage, 100);
-//             }
-//         }, false);
-//     }
-
-//     function scrollPage() {
-//         var sy = scrollY();
-//         if (sy >= changeHeaderOn) {
-//             classie.add(header, 'navbar-shrink');
-//             $(".topbar-search-container").removeClass('active');
-//             $(".topbar-search .toggle-search").removeClass('viva-times');
-//         } else {
-//             if (!$(".panel-screen-overlay.active").length) {
-//               if ( typeof(header) != 'undefined' && header != null ) {
-//                 classie.remove(header, 'navbar-shrink');
-//               }
-//             }
-//         }
-//         didScroll = false;
-//     }
-
-//     function scrollY() {
-//         return window.pageYOffset || docElem.scrollTop;
-//     }
-//     if (!$(header).hasClass("fixed-menu")) {
-//     init();
-//     }
-// })();
-
 
 })(jQuery);
 
@@ -761,8 +708,6 @@ if (!is_touch_device()) {
 
 }
 }
-
-
 
 function is_touch_device() {
 return 'ontouchstart' in window || 'onmsgesturechange' in window;
