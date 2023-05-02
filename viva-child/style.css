@@ -40,6 +40,15 @@ Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-
   margin-bottom: 0 !important;
 }
 
+/* Make images in Nearshore Services section brighter on hover */
+.nearshore-services > .photobox-img:hover {
+  filter: brightness(1.3);
+}
+
+.nearshore-services > .photobox-img:hover > a > img {
+  opacity: 1 !important;
+}
+
 /* Make Journey to Partnership section non clickable */
 .make-non-clickable > div > a {
   cursor: default;

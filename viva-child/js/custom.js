@@ -2,6 +2,12 @@
   $(document).ready(function () {
     "use strict";
 
+    // Make images clickable
+    $('.nearshore-services > .phb-content > a').each(function() {
+      var link = $(this).attr('href');
+      $(this).parent().parent().find('img').wrap('<a href="' + link + '"></a>');
+    });
+
     // Close main menu when clicking on item
     $("#main-menu a").on("click", function (e) {
       const menuMain = document.getElementById("main-menu");
