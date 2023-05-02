@@ -1,6 +1,16 @@
 (function ($) {
   $(document).ready(function () {
     "use strict";
+
+    // Close search input field when clicking outside
+    $(document).on("click", function (e) {
+      if (!$(e.target).closest(".topbar-search-container").length &&
+        !$(e.target).closest(".topbar-search").length) {
+        $(".topbar-search-container").removeClass("active");
+        $(".topbar-search .toggle-search").removeClass("viva-times");
+      }
+    });
+
     // Floating menu issue on screen resize
     jQuery(window).on("resize", function () {
       jQuery(".fm-list").each(function () {
@@ -51,7 +61,7 @@
         return false;
       }
     });
-    
+
     /* Add About Us section icons */
     $(".fa-chalkboard-teacher")
       .removeClass("fas fa-chalkboard-teacher")
@@ -86,7 +96,7 @@
     );
     $linkedinImg.insertBefore($youtubeIcon);
     $youtubeIcon.remove();
-    
+
     // Arrows position in Nearshore Services sections
     function imageDementions() {
       const img = $(
@@ -107,7 +117,7 @@
         imageDementions();
       }, 1000); // set timer to wait 1s after resize event has finished
     });
-    
+
     // Fix bugs related to Linkedin icon
     $(".fa-linkedin-square")
       .removeClass("fa-linkedin-square")
@@ -128,9 +138,8 @@
       return false;
     });
 
-    /* Add Journey to Partnership section icons */    
-    $('.fa-puzzle-piece').removeClass('fas fa-puzzle-piece').addClass('fa-light fa-puzzle');
-    $('.fa-handshake').removeClass('far fa-handshake').addClass('fa-light fa-hands-holding-diamond'); 
-
+    /* Add Journey to Partnership section icons */
+    $(".fa-puzzle-piece").removeClass("fas fa-puzzle-piece").addClass("fa-light fa-puzzle");
+    $(".fa-handshake").removeClass("far fa-handshake").addClass("fa-light fa-hands-holding-diamond");
   });
 })(jQuery);
