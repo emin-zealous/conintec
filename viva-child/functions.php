@@ -13,6 +13,7 @@
          wp_enqueue_style( 'keydesign-style', get_template_directory_uri() . '/style.css', array( 'bootstrap' ) );
          wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('keydesign-style') );
          wp_enqueue_script('custom', get_stylesheet_directory_uri() . '/js/custom.js', array('jquery'), VIVA_THEME_VERSION, true);
+         wp_enqueue_script('viva-scripts', get_stylesheet_directory_uri() . '/core/assets/js/scripts.js', array('jquery'), VIVA_THEME_VERSION, true);
      }
  }
 
