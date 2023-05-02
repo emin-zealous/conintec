@@ -11,6 +11,11 @@
       }
     });
 
+    // Clear search input field after submitting
+    document.querySelectorAll("input.orig").forEach((a) => {
+      a.defaultValue = "";
+    });
+
     // Floating menu issue on screen resize
     jQuery(window).on("resize", function () {
       jQuery(".fm-list").each(function () {
