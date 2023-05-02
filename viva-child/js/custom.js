@@ -1,6 +1,21 @@
 (function ($) {
   $(document).ready(function () {
     "use strict";
+
+    // Close main menu when clicking on item
+    $("#main-menu a").on("click", function (e) {
+      const menuMain = document.getElementById("main-menu");
+      const navbar = document.querySelector(".navbar-toggle");
+      setTimeout(() => {
+        // Close main menu
+        menuMain.classList.remove("in");
+        menuMain.setAttribute("aria-expanded", "false");
+
+        // Toggle hamburger menu icon
+        navbar.setAttribute("aria-expanded", "false");
+      }, 250);
+    });
+    
     // Floating menu issue on screen resize
     jQuery(window).on("resize", function () {
       jQuery(".fm-list").each(function () {
