@@ -26,3 +26,4 @@
  // -------------------------------------
  // Edit below this line
  // -------------------------------------
+ require_once( get_stylesheet_directory() . '/core/helper-functions.php' );
