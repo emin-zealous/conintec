@@ -16,6 +16,27 @@
       a.defaultValue = "";
     });
 
+    // Make images clickable
+    $('.nearshore-services > .phb-content > a').each(function() {
+      var link = $(this).attr('href');
+      $(this).parent().parent().find('img').wrap('<a href="' + link + '"></a>');
+    });
+
+    // Close main menu when clicking on item
+    $("#main-menu a").on("click", function (e) {
+      const menuMain = document.getElementById("main-menu");
+      const navbar = document.querySelector(".navbar-toggle");
+      setTimeout(() => {
+        // Close main menu
+        menuMain.classList.remove("in");
+        menuMain.setAttribute("aria-expanded", "false");
+
+        // Toggle hamburger menu icon
+        navbar.setAttribute("aria-expanded", "false");
+      }, 250);
+    });
+    
+
     // Floating menu issue on screen resize
     jQuery(window).on("resize", function () {
       jQuery(".fm-list").each(function () {
@@ -138,9 +159,27 @@
       event.preventDefault();
     });
 
-    // Make Polylang menu icon non clickable
-    $(".pll-parent-menu-item > a").click(function () {
-      return false;
+    // Define the language URLs
+    const langUrls = {
+      "en-US": {
+        searchUrl: "/portfolio-news/",
+        replaceUrl: "/news/#",
+      },
+      "de-DE": {
+        searchUrl: "/portfolio-news/",
+        replaceUrl: "/news-center/#",
+      },
+    };
+
+    // Replace news section URLs
+    $("a[href*='portfolio-news']").attr("href", function (i, val) {
+      const lang = $("html").attr("lang");
+      const langUrl = langUrls[lang];
+      if (langUrl) {
+        return val
+          .replace(langUrl.searchUrl, langUrl.replaceUrl)
+          .replace(/\/$/, "");
+      }
     });
 
     /* Add Journey to Partnership section icons */
