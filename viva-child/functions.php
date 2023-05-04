@@ -27,3 +27,8 @@
  // Edit below this line
  // -------------------------------------
  require_once( get_stylesheet_directory() . '/core/helper-functions.php' );
+ if( function_exists('pll_register_string') ) {
+    pll_register_string('nothing matched', 'Sorry, but nothing matched your search terms. Please try again using different keywords.');
+    pll_register_string('nothing found', 'Nothing Found');
+    pll_register_string('read more', 'Read more');
+ }
