@@ -4,7 +4,7 @@
 // Define Constants
 // ------------------------------------------------------------------------
 
-define( 'VIVA_THEME_VERSION', '1.4' );
+define( 'VIVA_THEME_VERSION', '1.6' );
 define( 'VIVA_THEME_DIR', trailingslashit( get_template_directory() ) );
 define( 'VIVA_THEME_URI', trailingslashit( esc_url( get_template_directory_uri() ) ) );
 
@@ -137,7 +137,7 @@ require_once VIVA_THEME_DIR . 'core/theme-woocommerce.php';
 // Events Calendar
 // ------------------------------------------------------------------------
 function viva_eventscal_css_enqueue(){
-	if ( class_exists( 'Tribe__Events__Main' ) && ( ( tribe_is_event() || tribe_is_event_category() || tribe_is_in_main_loop() || tribe_is_view() || is_post_type_archive( 'tribe_events' ) || 'tribe_events' == get_post_type() || is_singular( 'tribe_events' ) ) ) ) {
+	if ( class_exists( 'Tribe__Events__Main' ) && ( ( tribe_is_event() || tribe_is_event_category() || tribe_is_in_main_loop() || is_post_type_archive( 'tribe_events' ) || 'tribe_events' == get_post_type() || is_singular( 'tribe_events' ) ) ) ) {
 
 		$file = 'core/assets/css/events-calendar.css';
 

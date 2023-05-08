@@ -3332,6 +3332,19 @@
             'default' => true
         ),
         array(
+            'id' => 'tek-post-meta-date-format',
+            'type' => 'button_set',
+            'title' => esc_html__('Displayed Date', 'viva'),
+            'subtitle' => esc_html__('Display published or last updated date for blog posts.', 'viva'),
+            'select2' => array('allowClear' => false, 'minimumResultsForSearch' => '-1'),
+            'options'  => array(
+                'last-updated' => esc_html__('Last updated date', 'viva'),
+                'published' => esc_html__('Published date', 'viva'),
+            ),
+            'default' => 'last-updated',
+            'required' => array( 'tek-post-meta-date', 'equals', true ),
+        ),
+        array(
             'id' => 'tek-post-meta-author',
             'type' => 'switch',
             'title' => esc_html__('Post Meta Author', 'viva'),

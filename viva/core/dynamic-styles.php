@@ -69,7 +69,7 @@ $page_bgcolor_metabox = get_post_meta( get_the_ID(), 'keydesign_page_bgcolor', t
 }
 
 <?php if ( viva_get_option( 'tek-preloader' ) ) : ?>
-	<?php if ( viva_get_option( 'tek-preloader-bg-color' ) ) : ?>s
+	<?php if ( viva_get_option( 'tek-preloader-bg-color' ) ) : ?>
 		html {
 			background-color: <?php echo esc_attr( viva_get_option( 'tek-preloader-bg-color' ) ); ?>;
 		}
@@ -974,7 +974,7 @@ $page_bgcolor_metabox = get_post_meta( get_the_ID(), 'keydesign_page_bgcolor', t
 <?php endif; ?>
 
 <?php if (is_array(viva_get_option( 'tek-button-typo' )) && count(array_filter(viva_get_option( 'tek-button-typo' ))) != '1'): ?>
-	.woocommerce ul.products li.product .added_to_cart, .woocommerce ul.products li.product .button, 
+	.woocommerce ul.products li.product .added_to_cart, .woocommerce ul.products li.product .button,
 	.tt_button, .wpcf7 .wpcf7-submit,  .content-area .vc_grid .vc_gitem-zone-c .vc_general, .tt_button.modal-menu-item, .vc_grid-item-mini .blog-detailed-grid .vc_btn3-container a,
 	.cta-btncontainer .tt_button, .btn-hover-1 .tt_button:hover .iconita,
 	.pricing-table .tt_button, .pricing-table.active .tt_button {

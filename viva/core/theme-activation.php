@@ -4,7 +4,7 @@
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 define( 'VIVA_PLUGINS_URI', 'http://vivatheme.com/external/' );
-define( 'VIVA_ADDON_VERSION', '1.3' );
+define( 'VIVA_ADDON_VERSION', '1.5' );
 define( 'VIVA_PLUGINS_CURRENT_VERSION_URI', VIVA_PLUGINS_URI . VIVA_ADDON_VERSION );
 
 if ( ! function_exists( 'viva_register_plugins' ) ) {
@@ -21,7 +21,7 @@ if ( ! function_exists( 'viva_register_plugins' ) ) {
 				'slug' => 'js_composer',
 				'source' => VIVA_THEME_DIR . 'core/plugins/js_composer.zip',
 				'required' => true,
-				'version' => '6.10',
+				'version' => '6.11',
 				'force_activation' => false,
 				'force_deactivation' => false,
 				'external_url' => 'https://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431',
@@ -41,7 +41,7 @@ if ( ! function_exists( 'viva_register_plugins' ) ) {
 				'slug' => 'revslider',
 				'source' => VIVA_THEME_DIR . 'core/plugins/revslider.zip',
 				'required' => false,
-				'version' => '6.6.8',
+				'version' => '6.6.12',
 				'force_activation' => false,
 				'force_deactivation' => false,
 				'external_url' => 'https://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380',

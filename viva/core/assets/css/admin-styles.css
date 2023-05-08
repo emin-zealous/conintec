@@ -729,7 +729,6 @@ body.viva_page_theme-options {
 
 
 .redux-container .redux-main table.form-table input:not(.ed_button), .redux-container .redux-main table.form-table input[type=text], .redux-container .redux-main table.form-table select, .redux-container .redux-main table.form-table textarea {
-    border: none;
     background-color: #fff;
     border-radius: 12px!important;
     box-shadow: none;

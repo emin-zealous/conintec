@@ -175,7 +175,7 @@
 		          return $html;
 		      }
 		  }
-		  return '<span class="onsale">' . esc_html__( 'Sale', 'viva' ) . ' ' . $percentage . '</span>';
+		  return '<span class="onsale">' . apply_filters( 'kd_sale_badge_text', __( 'Sale', 'viva' ) ) . ' ' . $percentage . '</span>';
 		}
 	}
 	add_filter( 'woocommerce_sale_flash', 'viva_custom_sale_badge', 20, 3 );
@@ -283,9 +283,6 @@
 	// Move position of star rating on shop listing
 	remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_rating', 5 );
 	add_action ( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_rating', 15 );
-
-	// Remove decimals from price
-	add_filter( 'woocommerce_price_trim_zeros', '__return_true' );
 
 	if ( ! function_exists( 'viva_enqueue_woocommerce' ) ) {
 		function viva_enqueue_woocommerce() {

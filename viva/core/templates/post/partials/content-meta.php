@@ -19,16 +19,16 @@
     $blog_template = 'img-top-list';
   }
 
-  // Last updated time
-  $post_published = get_the_time('U');
-  $post_modified_time = get_the_modified_time('U');
-  if ( $post_modified_time >= $post_published + 86400) {
+// Last updated time
+$post_published = get_the_time('U');
+$post_modified_time = get_the_modified_time('U');
+if ( ($post_modified_time >= $post_published + 86400) && viva_get_option( 'tek-post-meta-date-format' ) == 'last-updated' ) {
     $post_date_single = apply_filters( 'last-updated-text', esc_html__("Last updated on ", "viva") ) . get_the_modified_time( get_option('date_format') );
     $post_date_listing = get_the_modified_time( get_option('date_format') );
-  } else {
+} else {
     $post_date_single = get_the_time( get_option('date_format') );
     $post_date_listing = get_the_time( get_option('date_format') );
-  }
+}
 ?>
 
 <?php if ( $global_post_meta == true ) : ?>

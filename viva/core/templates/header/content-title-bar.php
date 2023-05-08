@@ -176,7 +176,7 @@
       </div>
     </header>
 
-<?php elseif ( class_exists( 'Tribe__Events__Main' ) && ( ( tribe_is_event() || tribe_is_event_category() || tribe_is_in_main_loop() || tribe_is_view() || is_post_type_archive( 'tribe_events' ) || 'tribe_events' == get_post_type() || is_singular( 'tribe_events' ) ) ) ) : ?>
+<?php elseif ( class_exists( 'Tribe__Events__Main' ) && ( ( tribe_is_event() || tribe_is_event_category() || tribe_is_in_main_loop() || tec_is_view() || is_post_type_archive( 'tribe_events' ) || 'tribe_events' == get_post_type() || is_singular( 'tribe_events' ) ) ) ) : ?>
    <header class="entry-header blog-header events-calendar-header <?php echo esc_attr( $enable_topbar_mobile ); ?> <?php if ( viva_get_option( 'tek-topbar' ) == '1') { echo esc_attr( 'with-topbar' ); } ?>">
    </header>
 
